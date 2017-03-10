@@ -1,4 +1,4 @@
-# Consumer loyality program 
+# Consumer loyalty program 
 
 
 
