@@ -1,10 +1,19 @@
 {
-  "users": [],
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Amazing Jeff",
+      "friendsIds": [1,2,3]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "author": "Amazing Jeff",
+      "userId": "1",
+      "review": "This product is awesome!",
+      "sentiment": "positive",
+      "productId": 1
     }
   ],
   "comments": [
@@ -14,7 +23,12 @@
       "postId": 1
     }
   ],
-  "profile": {
+  "logins": [],
+  "localizations": [],
+  "recommendations": [],
+  "profiles": {
     "name": "typicode"
-  }
+  },
+  "purchases": [],
+  "sentiments": []
 }
