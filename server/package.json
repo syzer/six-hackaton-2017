@@ -4,8 +4,13 @@
   "description": "consumer loyality program",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -w ./ -x 'node index'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "six-hacaton-team",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.9.6"
+  }
 }

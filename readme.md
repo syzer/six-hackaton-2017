@@ -6,11 +6,16 @@
 
 ## Install
 
+First try:
 ```bash
 cd server
 npm install
 npm start
 ```
+
+and then visit:
+[http://localhost:3000/]()
+
 
 ## Query language
 
