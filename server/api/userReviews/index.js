@@ -24,7 +24,7 @@ const postUserAudioReview = (req, res, next) => {
     // console.warn('resr')
     // res.send('test')
 
-    axios.get(baseUrl + `/products/${id}?_embed=reviews`)
+    axios.get(baseUrl + `/products/${id}?_embed=reviews&_embed=sentiments`)
         .then(({ data }) => data)
         .then(product => res.json(product))
         .catch(onError(next))

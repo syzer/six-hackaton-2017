@@ -17,6 +17,10 @@
       "reviewIds": [
         1,
         2
+      ],
+      "sentimentIds": [
+        1,
+        2
       ]
     }
   ],
@@ -29,6 +33,11 @@
       "id": 1,
       "text": "Awesome",
       "sentiment": "positive"
+    },
+    {
+      "id": 2,
+      "text": "Not that great",
+      "sentiment": "negative"
     }
   ],
   "voice-recognitions": [
