@@ -13,6 +13,9 @@ const middlewares = jsonServer.defaults()
 server.use(cors())
 server.use(middlewares)
 server.use('/assets', express.static(path.join(__dirname, 'assets')))
+
+server.use('/voice-recognitions', require('./api/voiceRecognition'))
+
 server.use('/', router)
 
 server.listen(port, ip, () => {
