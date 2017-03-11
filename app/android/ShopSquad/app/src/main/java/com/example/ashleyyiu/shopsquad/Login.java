@@ -11,16 +11,29 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
+import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
 
 public class Login extends Activity {
+
+    private CallbackManager callbackManager;
+    private LoginButton loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        callbackManager = CallbackManager.Factory.create();
+        
 
         // app logo
         ImageView logo = (ImageView) findViewById(R.id.shopSquadLogo);
+        loginButton = (LoginButton) findViewById(R.id.login_button);
 
         Display display = getWindowManager().getDefaultDisplay();
         Point size = new Point();
@@ -35,6 +48,24 @@ public class Login extends Activity {
 
         logo.setScaleType(ImageView.ScaleType.CENTER_CROP);
         logo.setImageResource(R.drawable.shopsquadlogo);
+
+        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
+                //Intent intent = new Intent( ca.getContext(), TimelineActivity.class);
+                //startActivity(intent);
+            }
+
+            @Override
+            public void onCancel() {
+
+            }
+
+            @Override
+            public void onError(FacebookException e) {
+
+            }
+        });
 
         // fake button
         Button btn = (Button) findViewById(R.id.fakebutton);
