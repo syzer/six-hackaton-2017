@@ -23,3 +23,7 @@ and then visit:
 
 To query things in endpoints please lookinto
 [json-server](https://github.com/typicode/json-server)
+
+## Frontend (first try)
+
+[http://localhost:3000/assets/index.html]()
