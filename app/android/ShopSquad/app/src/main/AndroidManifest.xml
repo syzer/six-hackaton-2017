@@ -22,6 +22,7 @@
         <activity android:name=".TimelineActivity" />
         <activity android:name=".Product"/>
         <uses-permission android:name="android.permission.RECORD_AUDIO" />
+        <uses-permission android:name="android.permission.INTERNET"/>
     </application>
 
 </manifest>

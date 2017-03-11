@@ -51,6 +51,7 @@ public class Login extends Activity {
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
+                View v = getCurrentFocus();
                 loginResult = loginResult;
                 // friends list request
                 GraphRequest request = GraphRequest.newMeRequest(loginResult.getAccessToken(),
@@ -67,8 +68,9 @@ public class Login extends Activity {
                 parameters.putString("fields", "id,name,link");
                 request.setParameters(parameters);
                 request.executeAsync();
-                //Intent intent = new Intent( ca.getContext(), TimelineActivity.class);
-                //startActivity(intent);
+
+                Intent intent = new Intent(v.getContext(), TimelineActivity.class);
+                startActivity(intent);
             }
 
             @Override
