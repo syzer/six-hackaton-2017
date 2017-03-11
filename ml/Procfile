@@ -1,2 +1,2 @@
-web: gunicorn service:app
+web: gunicorn pyserver:app
 
