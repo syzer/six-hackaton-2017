@@ -45,3 +45,39 @@ curl 'http://localhost:3000/sentiments?lang=de&sentiment=good&productId=1&_expan
 ```bash
 curl 'localhost:3000/user-tweets?twitter=syzer3'
 ```
+
+## `/purchases` API
+
+```bash
+curl 'localhost:3000/purchases?_expand=user'
+ ```
+
+with discounts
+```bash
+curl 'localhost:3000/purchases?_expand=product&_expand=user'
+``` 
+
+## Voice recognition
+Do the 
+```bash
+heroku create
+```
+Add your key to the path
+```bash
+heroku config:set --app damp-chamber-61545 BING_VOICE_API_KEY="super secret key here"
+```
+
+To set up Bing voice API key use
+```bash
+heroku config:set --app secure-basin-20797 BING_VOICE_API_KEY="111keepdreamingecab33b12"
+```
+
+Deploy to heroku
+```bash
+git subtree push --prefix ml heroku master
+```
+Make sure only one instance is running
+```bash 
+heroku ps:scale web=1
+``` 
+
