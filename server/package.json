@@ -11,6 +11,7 @@
   "author": "six-hacaton-team",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.1",
     "faker": "^4.1.0",
     "json-server": "^0.9.6"
   }
