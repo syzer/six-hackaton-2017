@@ -101,6 +101,7 @@ heroku ps:scale web=1
 ``` 
 
 Give it a spin (use the example file in the server/assets)
+
 ```bash
 curl localhost:5000/transcript-voice -F "file=@english.wav"
 ```
