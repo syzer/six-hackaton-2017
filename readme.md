@@ -11,7 +11,7 @@ First try:
 ```bash
 cd server
 npm install
-cp .env.sample .env
+cp .env.example .env
 npm start
 ```
 
