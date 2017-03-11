@@ -46,8 +46,13 @@ curl 'http://localhost:3000/sentiments?lang=de&sentiment=good&productId=1&_expan
 curl 'localhost:3000/user-tweets?twitter=syzer3'
 ```
 
-## `/pruchases` API
+## `/purchases` API
 
 ```bash
- curl 'localhost:3000/purchases?_expand=user'
+curl 'localhost:3000/purchases?_expand=user'
  ```
+
+with discounts
+```bash
+curl 'localhost:3000/purchases?_expand=product&_expand=user'
+``` 

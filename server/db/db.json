@@ -93,7 +93,7 @@
     {
       "id": 1,
       "userId": 1,
-      "productId": 1,
+      "productId": 3,
       "lat": 47.3769,
       "lng": 8.5417
     },
@@ -128,9 +128,7 @@
     {
       "id": 5,
       "userId": 1,
-      "productIds": [
-        2
-      ],
+      "productId": 2,
       "lat": 47.3769,
       "lng": 8.3
     }
