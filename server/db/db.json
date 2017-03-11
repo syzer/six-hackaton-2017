@@ -1,9 +1,26 @@
 {
-  "users": [
+  "comments": [
     {
       "id": 1,
-      "name": "Amazing Jeff",
-      "friendsIds": [1,2,3]
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "logins": [],
+  "localizations": [],
+  "recommendations": [],
+  "products": [
+
+  ],
+  "profiles": {
+    "name": "typicode"
+  },
+  "purchases": [],
+  "sentiments": [],
+  "voice-recognitions": [
+    {
+      "id": 1,
+      "text": "This product is awesome!"
     }
   ],
   "reviews": [
@@ -16,19 +33,15 @@
       "productId": 1
     }
   ],
-  "comments": [
+  "users": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Amazing Jeff",
+      "friendsIds": [
+        1,
+        2,
+        3
+      ]
     }
-  ],
-  "logins": [],
-  "localizations": [],
-  "recommendations": [],
-  "profiles": {
-    "name": "typicode"
-  },
-  "purchases": [],
-  "sentiments": []
+  ]
 }
