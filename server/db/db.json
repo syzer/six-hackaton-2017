@@ -13,7 +13,11 @@
     {
       "id": 1,
       "name": "knife X1",
-      "price": 45.6
+      "price": 45.6,
+      "reviewIds": [
+        1,
+        2
+      ]
     }
   ],
   "profiles": {
@@ -39,6 +43,15 @@
       "author": "Amazing Jeff",
       "userId": 1,
       "review": "This product is awesome!",
+      "sentiment": "positive",
+      "productId": 1,
+      "stars": 4
+    },
+    {
+      "id": 2,
+      "author": "Amazing Jew",
+      "userId": 1,
+      "review": "This product is more awesome!",
       "sentiment": "positive",
       "productId": 1,
       "stars": 4

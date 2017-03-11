@@ -5,12 +5,14 @@ const jsonServer = require('json-server')
 const { port, ip } = require('./config')
 const cors = require('cors')
 const express = require('express')
+const bodyParser = require('body-parser')
 
 const server = jsonServer.create()
 const router = jsonServer.router('./db/db.json')
 const middlewares = jsonServer.defaults()
 
 server.use(cors())
+server.use(bodyParser())
 server.use(middlewares)
 server.use('/assets', express.static(path.join(__dirname, 'assets')))
 
