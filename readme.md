@@ -11,8 +11,8 @@ First try:
 ```bash
 cd server
 npm install
-npm start
 cp .env.sample .env
+npm start
 ```
 
 and then visit:
