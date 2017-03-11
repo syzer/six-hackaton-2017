@@ -22,7 +22,7 @@ const postReview = (req, res, next) => {
     const { text, productId, id } = req.body
     console.log(productId, id)
 
-    // http://master-2c6ikency6yo4.eu.platform.sh/sentiment?text=asdaasd%20awesome
+    // http://master-2c6ikency6yo4.eu.platform.sh/sentiment?text=awesome
     axios.get(sentimentAnalyserUrl, {
         params: {
             text
