@@ -59,7 +59,8 @@ public class Login extends Activity {
                             public void onCompleted(
                                     JSONObject object,
                                     GraphResponse response) {
-                                // Application code
+                                // store friends list on server for the given
+                                // loginResult.getAccessToken().getUserId()
                             }
                         });
                 Bundle parameters = new Bundle();
