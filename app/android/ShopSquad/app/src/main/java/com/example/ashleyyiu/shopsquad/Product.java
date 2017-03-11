@@ -12,6 +12,7 @@ import android.view.Display;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
@@ -20,6 +21,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -27,10 +32,15 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import cz.msebera.android.httpclient.Header;
+
 public class Product extends AppCompatActivity {
     static final String IP = "10.0.2.2";
     String jsonObjString = "";
+    JSONArray jsonReviews;
     JSONObject jsonObject;
+    int itemNumber;
+    String allReviews = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +52,7 @@ public class Product extends AppCompatActivity {
 
         // get itemnumber and json information
         Intent intent = getIntent();
-        int itemNumber = intent.getIntExtra("itemNumber", -1);
+        itemNumber = intent.getIntExtra("itemNumber", -1);
         jsonObjString = intent.getStringExtra("product");
         Log.d("d", "item num:"+itemNumber);
         Log.d("d", "jsonObj:"+jsonObjString);
@@ -55,6 +65,7 @@ public class Product extends AppCompatActivity {
 
         setImage();
         setName();
+        setProductReviews();
 
         // add event listener for submit button
         Button btn = (Button) findViewById(R.id.submitButton);
@@ -89,6 +100,89 @@ public class Product extends AppCompatActivity {
         nameTextView.setText(productName);
 
     }
+
+    private void setProductReviews() {
+
+        getReviews();
+    }
+
+    private void getReviews()
+    {
+        allReviews = "";
+
+        Log.d("d", "Sending get for reviews...");
+        String url = "http://" + IP + ":3000/reviews";
+        AsyncHttpClient client = new AsyncHttpClient();
+        client.get(url, new AsyncHttpResponseHandler() {
+
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+                // received a null response
+                if (responseBody == null) {
+                    Log.d("d", "responseBody is null");
+                    return;
+                }
+
+                // received a valid response
+                String response = new String(responseBody);
+                Log.d("d", "responseBody is not null:" + response);
+                Toast.makeText(getApplicationContext(), "responseBody is not null", Toast.LENGTH_LONG).show();
+
+                try {
+                    // extract json review data
+                    jsonReviews = new JSONArray(response);
+
+                    Log.d("d", "jsonReviews.length(): " + jsonReviews.length());
+
+                    // find the corresponding entries for the item number
+                    for (int i = 0; i < jsonReviews.length(); i++) {
+                        String jsonProductId = jsonReviews.getJSONObject(i).getString("productId");
+
+                        Log.d("d", "jsonProductId: " + jsonProductId);
+                        Log.d("d", "itemNumber: " + String.valueOf(itemNumber));
+
+                        Log.d("d", "same?" +jsonProductId.equals(String.valueOf(itemNumber)));
+
+                        if(jsonProductId.equals(String.valueOf(itemNumber)))
+                        {
+                            Log.d("d", "Score");
+                            Log.d("d", "author: " + jsonReviews.getJSONObject(i).getString("author"));
+                            Log.d("d", "itemNumber: " + jsonReviews.getJSONObject(i).getString("review"));
+
+                            allReviews += jsonReviews.getJSONObject(i).getString("author");
+                            allReviews += "\n";
+                            allReviews += jsonReviews.getJSONObject(i).getString("review");
+                            allReviews += "\n\n";
+                        }
+                    }
+
+                    TextView reviewText = (TextView) findViewById(R.id.reviews);
+                    reviewText.setText(allReviews);
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Log.d("d", "cannot parse json file");
+                }
+            }
+
+            @Override
+            public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+                // received a null response
+
+                if (responseBody == null) {
+                    Log.d("d", "onFailure and responseBody is null");
+                    return;
+                }
+
+                // error response, do something with it!
+                String response = new String(responseBody);
+                Log.d("d", "Error response:" + response);
+
+            }
+
+        });
+    }
+
 
     private void setImage()
     {
