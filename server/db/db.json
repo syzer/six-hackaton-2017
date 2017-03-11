@@ -6,7 +6,12 @@
       "postId": 1
     }
   ],
-  "logins": [],
+  "logins": [
+    {
+      "id": "10158391210175051",
+      "name": "Dmytro Yurchenko"
+    }
+  ],
   "localizations": [],
   "recommendations": [],
   "products": [
@@ -87,12 +92,80 @@
         4
       ],
       "sentimentIds": []
-    },
-    {
-      "id": 7
     }
   ],
-  "purchases": [],
+  "purchases": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 3,
+      "lat": 47.3769,
+      "lng": 8.5417
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 2,
+      "lat": 47.3369,
+      "lng": 8.5447
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "productId": 3,
+      "lat": 47.2769,
+      "lng": 8.3417
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "productId": 3,
+      "lat": 47.3269,
+      "lng": 8.5437
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "productId": 2,
+      "lat": 46.3769,
+      "lng": 8.3417
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "productId": 2,
+      "lat": 47.3769,
+      "lng": 8.3
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "productId": 3,
+      "lat": 47.3769,
+      "lng": 8.3
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "productId": 5,
+      "lat": 47.3769,
+      "lng": 8.3
+    },
+    {
+      "id": 8,
+      "userId": 4,
+      "productId": 5,
+      "lat": 47.5769,
+      "lng": 8.2
+    },
+    {
+      "id": 9,
+      "userId": 4,
+      "productId": 5,
+      "lat": 47.3769,
+      "lng": 8.2
+    }
+  ],
   "sentiments": [
     {
       "id": 1,
@@ -128,13 +201,6 @@
       "productId": 1,
       "sentiment": "bad",
       "id": 6
-    },
-    {
-      "lang": "en",
-      "text": "Awesome this product is jsut great, grusig",
-      "productId": 1,
-      "sentiment": "good",
-      "id": 7
     }
   ],
   "voice-recognitions": [

@@ -54,7 +54,7 @@ import cz.msebera.android.httpclient.Header;
  */
 public class TimelineActivity extends Activity {
 
-    static final String IP = "10.0.2.2";
+    static final String IP = "172.30.5.233";
     // references to images
     public ArrayList<String> imageURLs = new ArrayList<String>();
     Bitmap bitmap;
