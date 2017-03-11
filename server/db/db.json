@@ -14,7 +14,7 @@
       "id": 1,
       "name": "Rustmesser VICTORINOX",
       "price": 1.55,
-      "discount": 0.50,
+      "discount": 0.5,
       "picture": "http://localhost:3000/assets/product1.png",
       "reviewIds": [
         1,
@@ -28,8 +28,8 @@
     {
       "id": 2,
       "name": "Tadelmesser BASIC",
-      "price": 1.40,
-      "discount": 0.50,
+      "price": 1.4,
+      "discount": 0.5,
       "picture": "http://localhost:3000/assets/product2.png",
       "reviewIds": [
         1,
@@ -44,7 +44,7 @@
       "id": 3,
       "name": "Kaffeeloffel ROSSO",
       "price": 1.45,
-      "discount": 0.50,
+      "discount": 0.5,
       "picture": "http://localhost:3000/assets/product3.png",
       "reviewIds": [
         3
@@ -56,8 +56,8 @@
     {
       "id": 4,
       "name": "Kuchen-/ Geflugelschere",
-      "price": 7.40,
-      "discount": 0.50,
+      "price": 7.4,
+      "discount": 0.5,
       "picture": "http://localhost:3000/assets/product4.png",
       "reviewIds": [
         3
@@ -70,25 +70,23 @@
       "id": 5,
       "name": "Kaffeeloffel PRIMO",
       "price": 0.45,
-      "discount": 0.50,
+      "discount": 0.5,
       "picture": "http://localhost:3000/assets/product5.png",
       "reviewIds": [
         4
       ],
-      "sentimentIds": [
-      ]
+      "sentimentIds": []
     },
     {
       "id": 6,
       "name": "Pepsi",
       "price": 11,
-      "discount": 0.50,
+      "discount": 0.5,
       "picture": "http://localhost:3000/assets/product6.png",
       "reviewIds": [
         4
       ],
-      "sentimentIds": [
-      ]
+      "sentimentIds": []
     }
   ],
   "purchases": [],
@@ -96,14 +94,37 @@
     {
       "id": 1,
       "text": "Awesome",
-      "sentiment": "positive",
+      "sentiment": "good",
+      "lang": "de",
       "productId": 1
     },
     {
       "id": 2,
       "text": "Not that great",
-      "sentiment": "negative",
+      "lang": "en",
+      "sentiment": "bad",
       "productId": 1
+    },
+    {
+      "lang": "en",
+      "text": "Awesome this product is jsut great, grusig",
+      "productId": 1,
+      "sentiment": "good",
+      "id": 4
+    },
+    {
+      "lang": "de",
+      "text": "Das is super gut",
+      "productId": 1,
+      "sentiment": "good",
+      "id": 5
+    },
+    {
+      "lang": "de",
+      "text": "Nicht grusig, shiaisse",
+      "productId": 1,
+      "sentiment": "bad",
+      "id": 6
     }
   ],
   "voice-recognitions": [

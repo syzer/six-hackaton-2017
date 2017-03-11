@@ -11,7 +11,9 @@ const onError = (next) =>
         next(error)
     }
 
-// nodemon -w ./ -d 1 -x 'curl localhost:3000/user-sentiments -H "Content-Type: application/json" -d @userSentiments/sentiment.json'
+// nodemon -w ./ -d 1 -x 'curl localhost:3000/user-sentiments -H "Content-Type: application/json" -d @api/userSentiments/sentiment.json'
+// nodemon -w ./ -e js -d 1 -x 'curl localhost:3000/user-sentiments -H "Content-Type: application/json" -d @api/userSentiments/sentimentBadGerman.json'
+// nodemon -w ./ -e js -d 1 -x 'curl localhost:3000/user-sentiments -H "Content-Type: application/json" -d @api/userSentiments/sentimentGoodGerman.json'
 // =>
 // {
 //     "lang": "en",
@@ -20,14 +22,20 @@ const onError = (next) =>
 // TODO store that stuff in our db...
 const postReview = (req, res, next) => {
     const { text, productId, id } = req.body
-    console.log(productId, id)
 
     // http://master-2c6ikency6yo4.eu.platform.sh/sentiment?text=awesome
     axios.get(sentimentAnalyserUrl, {
         params: {
             text
         }
-    }).then(({ data }) => res.json(data))
+    }).then(({ data:{ lang, sentiment } }) =>
+        axios.post(baseUrl + '/sentiments', {
+            lang,
+            text,
+            productId,
+            sentiment
+        }))
+        .then(({ data }) => res.json(data))
         .catch(onError(next))
 }
 
