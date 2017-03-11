@@ -1,6 +1,6 @@
 # Consumer loyalty program 
 
-
+DESCRIPTION TODO
 
 # Server
 
@@ -38,4 +38,10 @@ nodemon -d 1 -w ./ -e js, -x 'curl localhost:3000/user-reviews/  -H "Content-Typ
 
 ```bash
 curl 'http://localhost:3000/sentiments?lang=de&sentiment=good&productId=1&_expand=product' -s | jq
+```
+
+## Extracting user network tweets social media
+
+```bash
+curl 'localhost:3000/user-tweets?twitter=syzer3'
 ```

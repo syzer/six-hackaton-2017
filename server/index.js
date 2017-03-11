@@ -19,7 +19,7 @@ server.use('/assets', express.static(path.join(__dirname, 'assets')))
 server.use('/voice-recognitions', require('./api/voiceRecognition'))
 server.use('/user-reviews', require('./api/userReviews'))
 server.use('/user-sentiments', require('./api/userSentiments'))
-server.use('/user-twitters', require('./api/userTwitters'))
+server.use('/user-tweets', require('./api/userTweets'))
 
 server.use('/', router)
 
