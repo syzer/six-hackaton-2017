@@ -131,6 +131,34 @@
       "productId": 2,
       "lat": 47.3769,
       "lng": 8.3
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "productId": 3,
+      "lat": 47.3769,
+      "lng": 8.3
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "productId": 5,
+      "lat": 47.3769,
+      "lng": 8.3
+    },
+    {
+      "id": 8,
+      "userId": 4,
+      "productId": 5,
+      "lat": 47.5769,
+      "lng": 8.2
+    },
+    {
+      "id": 9,
+      "userId": 4,
+      "productId": 5,
+      "lat": 47.3769,
+      "lng": 8.2
     }
   ],
   "sentiments": [
