@@ -12,8 +12,10 @@
   "products": [
     {
       "id": 1,
-      "name": "knife X1",
-      "price": 45.6,
+      "name": "Rustmesser VICTORINOX",
+      "price": 1.55,
+      "discount": 0.50,
+      "picture": "http://localhost:3000/assets/product1.png",
       "reviewIds": [
         1,
         2
@@ -22,11 +24,73 @@
         1,
         2
       ]
+    },
+    {
+      "id": 2,
+      "name": "Tadelmesser BASIC",
+      "price": 1.40,
+      "discount": 0.50,
+      "picture": "http://localhost:3000/assets/product2.png",
+      "reviewIds": [
+        1,
+        2
+      ],
+      "sentimentIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kaffeeloffel ROSSO",
+      "price": 1.45,
+      "discount": 0.50,
+      "picture": "http://localhost:3000/assets/product3.png",
+      "reviewIds": [
+        3
+      ],
+      "sentimentIds": [
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Kuchen-/ Geflugelschere",
+      "price": 7.40,
+      "discount": 0.50,
+      "picture": "http://localhost:3000/assets/product4.png",
+      "reviewIds": [
+        3
+      ],
+      "sentimentIds": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kaffeeloffel PRIMO",
+      "price": 0.45,
+      "discount": 0.50,
+      "picture": "http://localhost:3000/assets/product5.png",
+      "reviewIds": [
+        4
+      ],
+      "sentimentIds": [
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Pepsi",
+      "price": 11,
+      "discount": 0.50,
+      "picture": "http://localhost:3000/assets/product6.png",
+      "reviewIds": [
+        4
+      ],
+      "sentimentIds": [
+      ]
     }
   ],
-  "profiles": {
-    "name": "typicode"
-  },
   "purchases": [],
   "sentiments": [
     {
