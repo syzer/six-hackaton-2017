@@ -31,7 +31,9 @@ def transcript_audio(audio_recording):
 	with sr.AudioFile(audio_recording) as source:
 	    audio = r.record(source) # read the entire audio file
 
-	BING_KEY = "332b029a26854d4896f80c7ebac22d86" # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
+	BING_KEY = os.environ.get('BING_VOICE_API_KEY') # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
+	print BING_KEY
+	
 	try:
 	    return (r.recognize_bing(audio, key=BING_KEY)).encode("utf-8")
 	except sr.UnknownValueError:
