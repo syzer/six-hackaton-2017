@@ -32,10 +32,11 @@
     {
       "id": 1,
       "author": "Amazing Jeff",
-      "userId": "1",
+      "userId": 1,
       "review": "This product is awesome!",
       "sentiment": "positive",
-      "productId": 1
+      "productId": 1,
+      "stars": 4
     }
   ],
   "users": [
