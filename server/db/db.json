@@ -128,6 +128,13 @@
       "productId": 1,
       "sentiment": "bad",
       "id": 6
+    },
+    {
+      "lang": "en",
+      "text": "Awesome this product is jsut great, grusig",
+      "productId": 1,
+      "sentiment": "good",
+      "id": 7
     }
   ],
   "voice-recognitions": [
