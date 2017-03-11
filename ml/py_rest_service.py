@@ -15,50 +15,53 @@ import sys
 
 app = Flask(__name__)
 
+
 def output_json(data, code, headers=None):
-	resp = make_response(json.dumps(data), code)
-	resp.headers.extend(headers or {})
-	return resp
+    resp = make_response(json.dumps(data), code)
+    resp.headers.extend(headers or {})
+    return resp
+
 
 DEFAULT_PRESENTATIONS = {'applicaiton/json': output_json}
 api = restful.Api(app)
 api.representations = DEFAULT_PRESENTATIONS
 
-from py_rest_service import app, api 
+from py_rest_service import app, api
+
 
 def transcript_audio(audio_recording):
-	r = sr.Recognizer()
-	with sr.AudioFile(audio_recording) as source:
-	    audio = r.record(source) # read the entire audio file
+    r = sr.Recognizer()
+    with sr.AudioFile(audio_recording) as source:
+        audio = r.record(source)  # read the entire audio file
 
-	BING_KEY = os.environ.get('BING_VOICE_API_KEY') # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
-	print BING_KEY
-	
-	try:
-	    return (r.recognize_bing(audio, key=BING_KEY)).encode("utf-8")
-	except sr.UnknownValueError:
-	    return ("Microsoft Bing Voice Recognition could not understand audio").encode("utf-8")
-	except sr.RequestError as e:
-	    return("Could not request results from Microsoft Bing Voice Recognition service; {0}".format(e)).encode("utf-8")
+    # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
+    BING_KEY = os.environ.get('BING_VOICE_API_KEY')
+
+    try:
+        return (r.recognize_bing(audio, key=BING_KEY))
+    except sr.UnknownValueError:
+        return ("Microsoft Bing Voice Recognition could not understand audio").encode("utf-8")
+    except sr.RequestError as e:
+        return ("Could not request results from Microsoft Bing Voice Recognition service; {0}".format(e)).encode(
+            "utf-8")
 
 
 class TranscriptAudio(restful.Resource):
-	def post(self):
+    def post(self):
+        print('I am in....')
 
-		print('I am in....')
+        if 'file' not in request.files:
+            flash('No file part')
+            return redirect(request.url)
 
-		if 'file' not in request.files:
-			flash('No file part')
-			return redirect(request.url)
-		
-		file = request.files['file']
+        file = request.files['file']
 
-		return ({"transcript": transcript_audio(file)})
+        return ({"transcript": transcript_audio(file)})
 
 
 class Root(restful.Resource):
     def get(self):
-    	print("ok, it is root")
+        print("ok, it is root")
         return {
             'status': 'OK'
         }
@@ -67,7 +70,3 @@ class Root(restful.Resource):
 api.add_resource(TranscriptAudio, '/transcript-voice')
 
 api.add_resource(Root, '/')
-
-
-
-
