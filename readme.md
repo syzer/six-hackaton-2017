@@ -60,11 +60,24 @@ curl 'localhost:3000/purchases?_expand=product&_expand=user'
 ## Voice recognition
 Tested on Python 2.7
 
+Create virtual environment
+```bash
 virtualenv venv
-source venv/bin/activate
-pip install -r requirements.txt
+```
 
-Do the 
+Switch to it
+```bash
+source venv/bin/activate
+```
+
+Install requirements  
+```bash
+pip install -r requirements.txt
+```
+
+Don't do the heroku steps if you don't want to.
+
+Create instance on heroku (for heroku)
 ```bash
 heroku create
 ```
@@ -87,7 +100,7 @@ Make sure only one instance is running (for heroku)
 heroku ps:scale web=1
 ``` 
 
-Give it a spin
+Give it a spin (use the example file in the server/assets)
 ```bash
 curl localhost:5000/transcript-voice -F "file=@english.wav"
 ```
