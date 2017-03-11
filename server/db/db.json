@@ -10,13 +10,18 @@
   "localizations": [],
   "recommendations": [],
   "products": [
-
   ],
   "profiles": {
     "name": "typicode"
   },
   "purchases": [],
-  "sentiments": [],
+  "sentiments": [
+    {
+      "id": 1,
+      "text": "Awesome",
+      "sentiment": "positive"
+    }
+  ],
   "voice-recognitions": [
     {
       "id": 1,
@@ -41,6 +46,33 @@
         1,
         2,
         3
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Kale",
+      "lastName": "Jaylon",
+      "phoneNumber": "265-060-7439",
+      "friends": []
+    },
+    {
+      "id": 3,
+      "firstName": "Tevin",
+      "lastName": "Nedra",
+      "phoneNumber": "622-714-9599",
+      "friends": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "firstName": "Ressie",
+      "lastName": "Jana",
+      "phoneNumber": "128-281-1100",
+      "friends": [
+        1,
+        2
       ]
     }
   ]
