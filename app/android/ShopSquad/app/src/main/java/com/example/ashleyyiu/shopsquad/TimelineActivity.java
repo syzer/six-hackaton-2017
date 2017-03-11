@@ -57,6 +57,7 @@ public class TimelineActivity extends Activity {
     static final String IP = "172.30.5.233";
     // references to images
     public ArrayList<String> imageURLs = new ArrayList<String>();
+    public ArrayList<JSONObject> allJSONObjs = new ArrayList<JSONObject>();
     Bitmap bitmap;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -156,56 +157,41 @@ public class TimelineActivity extends Activity {
         //         create a new ImageView for each item referenced by the Adapter
         public View getView(int position, View convertView, ViewGroup parent) {
             ImageView imageView = null;
-            Log.d("d", "In getView...");
+            Log.d("d", "In getView where position is " + position);
+
+            // set the length/height of the image
+            Display display = getWindowManager().getDefaultDisplay();
+            Point size = new Point();
+            display.getSize(size);
+            int gridWidth = size.x / 2 - size.x / 10;
+            int padding = (int) size.x / 10;
 
             if (convertView == null) {
                 // if it's not recycled, initialize some attributes
                 Log.d("d", "Not null, getting images...");
-
-                // set the length/height of the image
-                Display display = getWindowManager().getDefaultDisplay();
-                Point size = new Point();
-                display.getSize(size);
-                int gridWidth = size.x / 3;
-
-                for (int i = 0; i < imageURLs.size(); i++) {
-                    Log.d("d", "IN for loop about to load images");
-                    try {
-                        Log.d("d", "In try");
-
-                        URL newurl = new URL(imageURLs.get(i));
-
-                        Bitmap bitmap = BitmapFactory.decodeStream(newurl.openConnection().getInputStream());
-                        imageView = new ImageView(mContext);
-
-                        imageView.setLayoutParams(new GridView.LayoutParams(gridWidth, gridWidth));
-                        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-                        imageView.setPadding(8, 8, 8, 8);
-
-                        imageView.setImageBitmap(bitmap);
-
-                        imageView.setVisibility(View.VISIBLE);
-                        Log.d("d", "After try");
-                    } catch (MalformedURLException e) {
-                        e.printStackTrace();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-
+                imageView = new ImageView(mContext);
+                imageView.setLayoutParams(new GridView.LayoutParams(gridWidth, gridWidth));
+                imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+                imageView.setPadding(padding, padding, padding, padding);
             } else {
-
                 imageView = (ImageView) convertView;
+            }
 
-//                imageView = new ImageView(mContext);
-//
-//                LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-//
-//                convertView = inflater.inflat()
+            try {
+
+                URL newurl = new URL(imageURLs.get(position));
+                Bitmap bitmap = BitmapFactory.decodeStream(newurl.openConnection().getInputStream());
+                imageView.setImageBitmap(bitmap);
+
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
             return imageView;
         }
     }
+
 
     public void processJson(String rawJson) throws Exception {
         Log.d("d", "Processing json:" + rawJson);
@@ -215,21 +201,27 @@ public class TimelineActivity extends Activity {
 
         // parse the array
         int i = 0;
-        int count = list.length() - 1;
+        int count = list.length();
         Log.d("d", "List Length:" + count);
 
-
+        // extract image links
         for (i = 0; i < count; ++i) {
             // get the JSON object at specific index
             JSONObject user = list.getJSONObject(i);
 
+            // add to json object arrayList
+            allJSONObjs.add(i, list.getJSONObject(i));
+
             // get the product image links and add to gridView
             String imageURL = (String) user.get("picture");
-            Log.d("d", "Link:" + imageURL);
-            imageURLs.add(i, imageURL.replace("localhost", IP));
+
+            if (imageURL != "")
+            {
+                Log.d("d", "Link:" + imageURL);
+                imageURLs.add(i, imageURL.replace("localhost", IP));
+            }
         }
         Log.d("d", "There are this many links in imageURLs in parseJson:" + imageURLs.size());
-
 
     }
 
@@ -288,6 +280,7 @@ public class TimelineActivity extends Activity {
                         Log.d("d", "Clicked pic where position is " + position);
 
                         Intent intent = new Intent(v.getContext(), Product.class);
+                        intent.putExtra("product", allJSONObjs.get(position).toString());
                         intent.putExtra("itemNumber", position);
                         startActivity(intent);
                     }
@@ -313,30 +306,3 @@ public class TimelineActivity extends Activity {
         });
     }
 }
-
-//            public int getImageId(Context context, String imageName) {
-//            int idToReturn = context.getResources().getIdentifier("drawable/" + "product" + imageName, null, context.getPackageName());
-//            Log.d("d", "id: " +idToReturn);
-//            return idToReturn;
-//        }
-//        private class DownloadImage extends AsyncTask<String, Void, Bitmap> {
-//
-//            @Override
-//            protected Bitmap doInBackground(String... URL) {
-//                String imageURL = URL[0];
-//                Bitmap bitmap = null;
-//                try {
-//                    InputStream input = new java.net.URL(imageURL).openStream();
-//                    bitmap = BitmapFactory.decodeStream(input);
-//                } catch (Exception e) {
-//                    e.printStackTrace();
-//                }
-//                Log.d("d", "Downloading image");
-//                return bitmap;
-//            }
-//
-//            @Override
-//            protected void onPostExecute(Bitmap result) {
-//                return;
-//            }
-//        }
