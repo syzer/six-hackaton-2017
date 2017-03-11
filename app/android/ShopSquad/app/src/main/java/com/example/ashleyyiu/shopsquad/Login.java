@@ -11,17 +11,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import com.facebook.CallbackManager;
-import com.facebook.FacebookCallback;
-import com.facebook.FacebookException;
-import com.facebook.FacebookSdk;
+import com.facebook.*;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+import org.json.JSONObject;
 
 public class Login extends Activity {
 
     private CallbackManager callbackManager;
     private LoginButton loginButton;
+    private LoginResult loginResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +51,21 @@ public class Login extends Activity {
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
+                loginResult = loginResult;
+                // friends list request
+                GraphRequest request = GraphRequest.newMeRequest(loginResult.getAccessToken(),
+                        new GraphRequest.GraphJSONObjectCallback() {
+                            @Override
+                            public void onCompleted(
+                                    JSONObject object,
+                                    GraphResponse response) {
+                                // Application code
+                            }
+                        });
+                Bundle parameters = new Bundle();
+                parameters.putString("fields", "id,name,link");
+                request.setParameters(parameters);
+                request.executeAsync();
                 //Intent intent = new Intent( ca.getContext(), TimelineActivity.class);
                 //startActivity(intent);
             }
