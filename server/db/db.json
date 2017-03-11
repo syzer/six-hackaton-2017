@@ -32,12 +32,14 @@
     {
       "id": 1,
       "text": "Awesome",
-      "sentiment": "positive"
+      "sentiment": "positive",
+      "productId": 1
     },
     {
       "id": 2,
       "text": "Not that great",
-      "sentiment": "negative"
+      "sentiment": "negative",
+      "productId": 1
     }
   ],
   "voice-recognitions": [
