@@ -12,11 +12,13 @@ const router = jsonServer.router('./db/db.json')
 const middlewares = jsonServer.defaults()
 
 server.use(cors())
-server.use(bodyParser())
+server.use(bodyParser.json({ limit: '150mb' }))
+server.use(bodyParser.urlencoded({ limit: '150mb', extended: true}))
+
 server.use(middlewares)
 server.use('/assets', express.static(path.join(__dirname, 'assets')))
 
-server.use('/voice-recognitions', require('./api/voiceRecognition'))
+server.use('/voice-recognitions', require('./api/voiceRecognitions'))
 server.use('/user-reviews', require('./api/userReviews'))
 server.use('/user-sentiments', require('./api/userSentiments'))
 server.use('/user-tweets', require('./api/userTweets'))
