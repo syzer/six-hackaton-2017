@@ -106,3 +106,11 @@ Give it a spin (use the example file in the server/assets)
 curl localhost:5000/transcript-voice -F "file=@english.wav"
 ```
 
+## `/voice-recognition`
+
+Provide us with speach to text
+
+```bash
+curl localhost:5000/transcript-voice -F "file=@server/assets/product1-review.wav"
+#{"transcript": "those knives are sharp one of best i have ever use keep up the good work"}
+```
