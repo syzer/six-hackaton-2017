@@ -7,10 +7,12 @@
 ## Install
 
 First try:
+
 ```bash
 cd server
 npm install
 npm start
+cp .env.sample .env
 ```
 
 and then visit:
