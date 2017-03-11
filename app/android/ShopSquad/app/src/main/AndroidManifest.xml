@@ -9,7 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.example.ashleyyiu.shopsquad.Login"></activity>
+        <activity android:name="com.example.ashleyyiu.shopsquad.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.ashleyyiu.shopsquad.TimelineActivity"></activity>
     </application>
 
