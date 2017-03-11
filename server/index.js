@@ -15,6 +15,7 @@ server.use(middlewares)
 server.use('/assets', express.static(path.join(__dirname, 'assets')))
 
 server.use('/voice-recognitions', require('./api/voiceRecognition'))
+server.use('/user-reviews', require('./api/userReviews'))
 
 server.use('/', router)
 

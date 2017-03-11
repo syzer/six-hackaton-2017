@@ -10,6 +10,11 @@
   "localizations": [],
   "recommendations": [],
   "products": [
+    {
+      "id": 1,
+      "name": "knife X1",
+      "price": 45.6
+    }
   ],
   "profiles": {
     "name": "typicode"
