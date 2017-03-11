@@ -6,9 +6,11 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Display;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 public class Login extends Activity {
 
@@ -25,9 +27,10 @@ public class Login extends Activity {
         display.getSize(size);
         int imageWidth = size.x/2;
 
-        android.view.ViewGroup.LayoutParams layoutParams = logo.getLayoutParams();
-        layoutParams.width = imageWidth;
-        layoutParams.height = imageWidth;
+
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(imageWidth, imageWidth);
+
+        layoutParams.gravity = Gravity.CENTER_HORIZONTAL;
         logo.setLayoutParams(layoutParams);
 
         logo.setScaleType(ImageView.ScaleType.CENTER_CROP);

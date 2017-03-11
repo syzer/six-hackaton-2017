@@ -2,6 +2,7 @@ package com.example.ashleyyiu.shopsquad;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,7 +30,11 @@ public class TimelineActivity extends Activity {
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
-                Log.d("d", "Clicked pic");
+                Log.d("d", "Clicked pic where position is " +position);
+
+                Intent intent = new Intent(v.getContext(), Product.class);
+                intent.putExtra("itemNumber", position);
+                startActivity(intent);
             }
         });
     }
@@ -79,31 +84,15 @@ public class TimelineActivity extends Activity {
 
         // references to images
         private Integer[] mThumbIds = {
-                R.drawable.sample_2, R.drawable.sample_3,
-                R.drawable.sample_4, R.drawable.sample_5,
-                R.drawable.sample_6, R.drawable.sample_7,
                 R.drawable.sample_0, R.drawable.sample_1,
                 R.drawable.sample_2, R.drawable.sample_3,
                 R.drawable.sample_4, R.drawable.sample_5,
                 R.drawable.sample_6, R.drawable.sample_7,
-                R.drawable.sample_0, R.drawable.sample_1,
-                R.drawable.sample_2, R.drawable.sample_3,
-                R.drawable.sample_4, R.drawable.sample_5,
-                R.drawable.sample_6, R.drawable.sample_7
+                R.drawable.sample_8, R.drawable.sample_9,
+                R.drawable.sample_10, R.drawable.sample_11,
+                R.drawable.sample_12, R.drawable.sample_13,
+                R.drawable.sample_14, R.drawable.sample_15
         };
-//        private Integer[] mThumbIds = {
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic,
-//                R.drawable.pic, R.drawable.pic
-//        };
 
     }
 }
