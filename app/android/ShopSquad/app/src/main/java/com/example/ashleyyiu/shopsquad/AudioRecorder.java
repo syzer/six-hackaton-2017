@@ -13,8 +13,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import cz.msebera.android.httpclient.client.HttpClient;
 
+import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Collections;
 
 import static android.media.AudioRecord.getMinBufferSize;
 
@@ -59,20 +65,19 @@ public class AudioRecorder extends Activity {
     }
 
 
-
     private void startRecording() {
 
         recorder = new AudioRecord(MediaRecorder.AudioSource.MIC, RECORDER_SAMPLERATE, RECORDER_CHANNELS,
                 RECORDER_AUDIO_ENCODING, BufferElements2Rec * BytesPerElement);
 
         recorder.startRecording();
-        /*isRecording = true;
+        isRecording = true;
         recordingThread = new Thread(new Runnable() {
             public void run() {
                 writeAudioDataToFile();
             }
         }, "AudioRecorder Thread");
-        recordingThread.start();*/
+        recordingThread.start();
     }
 
     //convert short to byte
@@ -87,7 +92,6 @@ public class AudioRecorder extends Activity {
         return bytes;
 
     }
-
 
 
     private void stopRecording() {
@@ -121,16 +125,16 @@ public class AudioRecorder extends Activity {
         return super.onKeyDown(keyCode, event);
     }
 
- /*   private void writeAudioDataToFile() {
+    private void writeAudioDataToFile() {
         // Write the output audio in byte
-
-        String filePath = "/sdcard/voice8K16bitmono.pcm";
         short sData[] = new short[BufferElements2Rec];
 
         FileOutputStream os = null;
+        File tmpFile = null;
         try {
-            os = new FileOutputStream(filePath);
-        } catch (FileNotFoundException e) {
+            tmpFile = File.createTempFile("voice", ".wav", getCacheDir());
+            os = new FileOutputStream(tmpFile);
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
@@ -153,5 +157,21 @@ public class AudioRecorder extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }*/
+
+        MultipartRequest request = new MultipartRequest("hidden-hamlet-20559.herokuapp.com/messages",
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                    }
+                },
+                new Response.Listener<String>() {
+
+                    @Override
+                    public void onResponse(String response) {
+
+                    }
+                }, tmpFile, Collections.<String, String>emptyMap());
+
+    }
 }
