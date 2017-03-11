@@ -6,7 +6,12 @@
       "postId": 1
     }
   ],
-  "logins": [],
+  "logins": [
+    {
+      "id": "10158391210175051",
+      "name": "Dmytro Yurchenko"
+    }
+  ],
   "localizations": [],
   "recommendations": [],
   "products": [

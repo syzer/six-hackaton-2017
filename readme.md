@@ -58,6 +58,9 @@ curl 'localhost:3000/purchases?_expand=product&_expand=user'
 ``` 
 
 ## Voice recognition
+<<<<<<< HEAD
+Do the 
+=======
 Tested on Python 2.7
 
 Create virtual environment
@@ -78,6 +81,7 @@ pip install -r requirements.txt
 Don't do the heroku steps if you don't want to.
 
 Create instance on heroku (for heroku)
+>>>>>>> 6c11f16782608bdecf9a4d642fbcde16e89479bf
 ```bash
 heroku create
 ```
@@ -91,15 +95,25 @@ To set up Bing voice API key use
 heroku config:set --app secure-basin-20797 BING_VOICE_API_KEY="111keepdreamingecab33b12"
 ```
 
+<<<<<<< HEAD
+Deploy to heroku
+```bash
+git subtree push --prefix ml heroku master
+```
+Make sure only one instance is running
+=======
 Deploy to heroku (for heroku)
 ```bash
 git subtree push --prefix ml heroku master
 ```
 Make sure only one instance is running (for heroku)
+>>>>>>> 6c11f16782608bdecf9a4d642fbcde16e89479bf
 ```bash 
 heroku ps:scale web=1
 ``` 
 
+<<<<<<< HEAD
+=======
 Give it a spin (use the example file in the server/assets)
 
 ```bash
@@ -119,3 +133,4 @@ curl localhost:5000/transcript-voice -F "file=@server/assets/product1-review.wav
 curl localhost:5000/transcript-voice -F "file=@server/assets/product2-review.wav"
 #{"transcript": "i like it its nice shampoo smells like oranges and it's blue"}
 ```
+>>>>>>> 6c11f16782608bdecf9a4d642fbcde16e89479bf
