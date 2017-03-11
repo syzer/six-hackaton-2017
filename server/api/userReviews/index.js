@@ -19,9 +19,12 @@ const getReviews = (req, res, next) =>
 const postUserAudioReview = (req, res, next) => {
     const id = req.param('id') || 1
 
-    axios.get(baseUrl + `/products/${id}`)
-        .then(({ data }) => data)
-        .then(({ reviewIds }) => axios.get(baseUrl + `/reviews/${reviewIds}`))
+    // TODO here call to microsoft
+
+    // console.warn('resr')
+    // res.send('test')
+
+    axios.get(baseUrl + `/products/${id}?_embed=reviews`)
         .then(({ data }) => data)
         .then(product => res.json(product))
         .catch(onError(next))
