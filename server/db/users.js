@@ -1,5 +1,6 @@
 const faker = require('faker')
 
+// this generates users for you
 const newUsers = () => {
     return Array.from({ length: 50 }, (x, i) => ({
         id: i + 1,

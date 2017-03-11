@@ -1,0 +1,5642 @@
+[
+  {
+    "created_at": "Fri Mar 10 16:05:20 +0000 2017",
+    "id": 840232108954132500,
+    "id_str": "840232108954132480",
+    "text": "@IKvitinskis Non appena lo saprò trasmetterò la tua comunicazione alla filiale interessate. 2/2 ^tf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "IKvitinskis",
+          "name": "Igors Kvitinskis",
+          "id": 512385043,
+          "id_str": "512385043",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 840189382523002900,
+    "in_reply_to_status_id_str": "840189382523002880",
+    "in_reply_to_user_id": 512385043,
+    "in_reply_to_user_id_str": "512385043",
+    "in_reply_to_screen_name": "IKvitinskis",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "it"
+  },
+  {
+    "created_at": "Fri Mar 10 16:05:04 +0000 2017",
+    "id": 840232043137101800,
+    "id_str": "840232043137101824",
+    "text": "@IKvitinskis Grazie per la tua comunicazione. In quale filiale hai individuato il problema? 1/2",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "IKvitinskis",
+          "name": "Igors Kvitinskis",
+          "id": 512385043,
+          "id_str": "512385043",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 840189382523002900,
+    "in_reply_to_status_id_str": "840189382523002880",
+    "in_reply_to_user_id": 512385043,
+    "in_reply_to_user_id_str": "512385043",
+    "in_reply_to_screen_name": "IKvitinskis",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "it"
+  },
+  {
+    "created_at": "Fri Mar 10 13:53:42 +0000 2017",
+    "id": 840198985369440300,
+    "id_str": "840198985369440257",
+    "text": "@mikeschwede Dieses Brot überzeugt durch seine Frische, wattige Krume und die schöne Bestreuung. Und das noch in Bio-Qualität! ^jr",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mikeschwede",
+          "name": "Mike Schwede",
+          "id": 15511919,
+          "id_str": "15511919",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839904027471200300,
+    "in_reply_to_status_id_str": "839904027471200257",
+    "in_reply_to_user_id": 15511919,
+    "in_reply_to_user_id_str": "15511919",
+    "in_reply_to_screen_name": "mikeschwede",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Fri Mar 10 12:47:40 +0000 2017",
+    "id": 840182366962372600,
+    "id_str": "840182366962372608",
+    "text": "@HelioDrazz Auf Kundenwunsch haben wir dies so umgesetzt.So kommt die laktosefreie Butter so nah wie möglich an die normale Butter heran.^jr",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "HelioDrazz",
+          "name": "HelioDrazz",
+          "id": 229639322,
+          "id_str": "229639322",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839131662449586200,
+    "in_reply_to_status_id_str": "839131662449586177",
+    "in_reply_to_user_id": 229639322,
+    "in_reply_to_user_id_str": "229639322",
+    "in_reply_to_screen_name": "HelioDrazz",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Thu Mar 09 13:49:24 +0000 2017",
+    "id": 839835511657283600,
+    "id_str": "839835511657283584",
+    "text": "@HauriAndrea Wir klären deine Frage gerne mit unserer Fasnachtsabteilung ab. Du hörst von uns! ^jw",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "HauriAndrea",
+          "name": "iAndrea",
+          "id": 448028286,
+          "id_str": "448028286",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839800625630150700,
+    "in_reply_to_status_id_str": "839800625630150657",
+    "in_reply_to_user_id": 448028286,
+    "in_reply_to_user_id_str": "448028286",
+    "in_reply_to_screen_name": "HauriAndrea",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Thu Mar 09 10:05:07 +0000 2017",
+    "id": 839779068883177500,
+    "id_str": "839779068883177472",
+    "text": "@FredericZRH une certaine marge de manœuvre et peuvent fixer elles-mêmes certains prix. 3/3 ^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FredericZRH",
+          "name": "Fred",
+          "id": 180403852,
+          "id_str": "180403852",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839093201034182700,
+    "in_reply_to_status_id_str": "839093201034182656",
+    "in_reply_to_user_id": 180403852,
+    "in_reply_to_user_id_str": "180403852",
+    "in_reply_to_screen_name": "FredericZRH",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "fr"
+  },
+  {
+    "created_at": "Thu Mar 09 10:04:50 +0000 2017",
+    "id": 839778999882629100,
+    "id_str": "839778999882629120",
+    "text": "@FredericZRH à ce prix. Par ailleurs, l’emballage Thomy est beaucoup plus complexe. Par rapport à votre 2e question: les filiales ont 2/3^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FredericZRH",
+          "name": "Fred",
+          "id": 180403852,
+          "id_str": "180403852",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839093201034182700,
+    "in_reply_to_status_id_str": "839093201034182656",
+    "in_reply_to_user_id": 180403852,
+    "in_reply_to_user_id_str": "180403852",
+    "in_reply_to_screen_name": "FredericZRH",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "fr"
+  },
+  {
+    "created_at": "Thu Mar 09 10:04:12 +0000 2017",
+    "id": 839778838313852900,
+    "id_str": "839778838313852928",
+    "text": "@FredericZRH En réponse à votre 1e question: Migros produit elle-même ces portions rondes; c’est pourquoi nous pouvons les vendre 1/3^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FredericZRH",
+          "name": "Fred",
+          "id": 180403852,
+          "id_str": "180403852",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839093201034182700,
+    "in_reply_to_status_id_str": "839093201034182656",
+    "in_reply_to_user_id": 180403852,
+    "in_reply_to_user_id_str": "180403852",
+    "in_reply_to_screen_name": "FredericZRH",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "fr"
+  },
+  {
+    "created_at": "Thu Mar 09 09:20:47 +0000 2017",
+    "id": 839767913250836500,
+    "id_str": "839767913250836480",
+    "text": "@Frechgeist Wie verwirrend. Danke nochmal für den Hinweis. Ich gebe das mal weiter und hoffe auf Klärung :) ^so",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Frechgeist",
+          "name": "Markus Felber",
+          "id": 46348909,
+          "id_str": "46348909",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 839486330652479500,
+    "in_reply_to_status_id_str": "839486330652479488",
+    "in_reply_to_user_id": 46348909,
+    "in_reply_to_user_id_str": "46348909",
+    "in_reply_to_screen_name": "Frechgeist",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Thu Mar 09 08:25:53 +0000 2017",
+    "id": 839754100099133400,
+    "id_str": "839754100099133440",
+    "text": "WWF-Lebensmittelrating: M-Industrie-Unternehmen in allen Bereichen überdurchschnittlich: https://t.co/l0iGnoIpEx… https://t.co/5lkN246zHR",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/l0iGnoIpEx",
+          "expanded_url": "http://bit.ly/2mok2qh",
+          "display_url": "bit.ly/2mok2qh",
+          "indices": [
+            89,
+            112
+          ]
+        },
+        {
+          "url": "https://t.co/5lkN246zHR",
+          "expanded_url": "https://twitter.com/i/web/status/839754100099133440",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            114,
+            137
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 10,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 16:52:03 +0000 2017",
+    "id": 839519089995444200,
+    "id_str": "839519089995444226",
+    "text": "@Ta_Hu Lass es dir schmecken :) ^tf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Ta_Hu",
+          "name": "Tanja Huber",
+          "id": 204881876,
+          "id_str": "204881876",
+          "indices": [
+            0,
+            6
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839516629461569500,
+    "in_reply_to_status_id_str": "839516629461569537",
+    "in_reply_to_user_id": 204881876,
+    "in_reply_to_user_id_str": "204881876",
+    "in_reply_to_screen_name": "Ta_Hu",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 13:37:08 +0000 2017",
+    "id": 839470040764321800,
+    "id_str": "839470040764321794",
+    "text": "@Frechgeist Ok, im Surseepark sollte es verfügbar sein. Wahrscheinlich ist es online falsch verknüpft, sodass Suche nicht funktioniert. ^so",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Frechgeist",
+          "name": "Markus Felber",
+          "id": 46348909,
+          "id_str": "46348909",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 839465171785494500,
+    "in_reply_to_status_id_str": "839465171785494528",
+    "in_reply_to_user_id": 63655447,
+    "in_reply_to_user_id_str": "63655447",
+    "in_reply_to_screen_name": "migros",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 13:27:38 +0000 2017",
+    "id": 839467650073911300,
+    "id_str": "839467650073911296",
+    "text": "@Frechgeist Danke für die Info! Aber trotzdem nicht vergessen genügend Früchte zu essen :) ^so",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Frechgeist",
+          "name": "Markus Felber",
+          "id": 46348909,
+          "id_str": "46348909",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 839464504228524000,
+    "in_reply_to_status_id_str": "839464504228524032",
+    "in_reply_to_user_id": 46348909,
+    "in_reply_to_user_id_str": "46348909",
+    "in_reply_to_screen_name": "Frechgeist",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 13:17:48 +0000 2017",
+    "id": 839465171785494500,
+    "id_str": "839465171785494528",
+    "text": "@Frechgeist Suche via Ortschaft/PLZ ergibt erneut \"nicht verfügbar\". Hab nachgefragt &amp; melde mich nochmal bevor du in die Filiale gehst. ^so",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Frechgeist",
+          "name": "Markus Felber",
+          "id": 46348909,
+          "id_str": "46348909",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 839457777617625100,
+    "in_reply_to_status_id_str": "839457777617625088",
+    "in_reply_to_user_id": 46348909,
+    "in_reply_to_user_id_str": "46348909",
+    "in_reply_to_screen_name": "Frechgeist",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 13:13:52 +0000 2017",
+    "id": 839464184576376800,
+    "id_str": "839464184576376832",
+    "text": "@Frechgeist Täglich einen Apfel essen soll ja bekanntlich gesund sein:) Aber die Coupons scheinen mir ein Fehler zu sein. Ich klärs ab. ^so",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Frechgeist",
+          "name": "Markus Felber",
+          "id": 46348909,
+          "id_str": "46348909",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 833975697152553000,
+    "in_reply_to_status_id_str": "833975697152552961",
+    "in_reply_to_user_id": 46348909,
+    "in_reply_to_user_id_str": "46348909",
+    "in_reply_to_screen_name": "Frechgeist",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 12:38:50 +0000 2017",
+    "id": 839455365242716200,
+    "id_str": "839455365242716162",
+    "text": "@ralfbeyeler @Frechgeist Burrata vom Bild gibts nur in Genossenschaft Tessin. Burratina Pugliese gibts überall:… https://t.co/VQSWkdH8gX",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ralfbeyeler",
+          "name": "Ralf Beyeler",
+          "id": 26001623,
+          "id_str": "26001623",
+          "indices": [
+            0,
+            12
+          ]
+        },
+        {
+          "screen_name": "Frechgeist",
+          "name": "Markus Felber",
+          "id": 46348909,
+          "id_str": "46348909",
+          "indices": [
+            13,
+            24
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/VQSWkdH8gX",
+          "expanded_url": "https://twitter.com/i/web/status/839455365242716162",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            113,
+            136
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 831899081387733000,
+    "in_reply_to_status_id_str": "831899081387732995",
+    "in_reply_to_user_id": 63655447,
+    "in_reply_to_user_id_str": "63655447",
+    "in_reply_to_screen_name": "migros",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 09:56:21 +0000 2017",
+    "id": 839414475388301300,
+    "id_str": "839414475388301312",
+    "text": "@Frechgeist @Tendoversum Das tut mir leid. Tatsächlich ist deine Anfrage bei mir untergegangen. Hab nochmal nachgehakt. ^so",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Frechgeist",
+          "name": "Markus Felber",
+          "id": 46348909,
+          "id_str": "46348909",
+          "indices": [
+            0,
+            11
+          ]
+        },
+        {
+          "screen_name": "Tendoversum",
+          "name": "The Lady is a Tramp",
+          "id": 1674090122,
+          "id_str": "1674090122",
+          "indices": [
+            12,
+            24
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 833990876544237600,
+    "in_reply_to_status_id_str": "833990876544237568",
+    "in_reply_to_user_id": 46348909,
+    "in_reply_to_user_id_str": "46348909",
+    "in_reply_to_screen_name": "Frechgeist",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 07:29:52 +0000 2017",
+    "id": 839377614942912500,
+    "id_str": "839377614942912512",
+    "text": "@vinschger Hier hast du mehr Infos zur Ökobilanz: https://t.co/GWNmpNVRey. ^jw",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "vinschger",
+          "name": "vinschger",
+          "id": 129169680,
+          "id_str": "129169680",
+          "indices": [
+            0,
+            10
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/GWNmpNVRey",
+          "expanded_url": "http://bit.ly/2mhtvOM",
+          "display_url": "bit.ly/2mhtvOM",
+          "indices": [
+            50,
+            73
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839096403913769000,
+    "in_reply_to_status_id_str": "839096403913768960",
+    "in_reply_to_user_id": 129169680,
+    "in_reply_to_user_id_str": "129169680",
+    "in_reply_to_screen_name": "vinschger",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Wed Mar 08 07:28:38 +0000 2017",
+    "id": 839377304748965900,
+    "id_str": "839377304748965888",
+    "text": "@vinschger Getränkekarton ohne Recycling schneiden in Ökobilanz gleich ab Recycling von PET. Kosten sind sowieso zu hoch. ^jw",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "vinschger",
+          "name": "vinschger",
+          "id": 129169680,
+          "id_str": "129169680",
+          "indices": [
+            0,
+            10
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839096403913769000,
+    "in_reply_to_status_id_str": "839096403913768960",
+    "in_reply_to_user_id": 129169680,
+    "in_reply_to_user_id_str": "129169680",
+    "in_reply_to_screen_name": "vinschger",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 15:04:02 +0000 2017",
+    "id": 839129520120729600,
+    "id_str": "839129520120729600",
+    "text": "@HelioDrazz Sorry, war uns nicht klar, dass das logisch ist :-) Est ist ein rein optischer Grund - weisse Butter käme wohl nicht so an. ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "HelioDrazz",
+          "name": "HelioDrazz",
+          "id": 229639322,
+          "id_str": "229639322",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 839120106865188900,
+    "in_reply_to_status_id_str": "839120106865188864",
+    "in_reply_to_user_id": 229639322,
+    "in_reply_to_user_id_str": "229639322",
+    "in_reply_to_screen_name": "HelioDrazz",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 14:22:53 +0000 2017",
+    "id": 839119166040903700,
+    "id_str": "839119166040903681",
+    "text": "@HelioDrazz Ohne Beta Carotin wäre die Butter weiss :-) ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "HelioDrazz",
+          "name": "HelioDrazz",
+          "id": 229639322,
+          "id_str": "229639322",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 838876578163589100,
+    "in_reply_to_status_id_str": "838876578163589121",
+    "in_reply_to_user_id": 229639322,
+    "in_reply_to_user_id_str": "229639322",
+    "in_reply_to_screen_name": "HelioDrazz",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 13:58:45 +0000 2017",
+    "id": 839113089131950100,
+    "id_str": "839113089131950080",
+    "text": "@wpplugindevcom Das kann nicht am Apfelwein liegen. Nach der Lagerung wurde der Alkohol entzogen und mit Süssmost gemischt :) ^tb",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "wpplugindevcom",
+          "name": "WP Plugin Dev",
+          "id": 2295719946,
+          "id_str": "2295719946",
+          "indices": [
+            0,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 839111606730653700,
+    "in_reply_to_status_id_str": "839111606730653701",
+    "in_reply_to_user_id": 2295719946,
+    "in_reply_to_user_id_str": "2295719946",
+    "in_reply_to_screen_name": "wpplugindevcom",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 13:52:17 +0000 2017",
+    "id": 839111462819876900,
+    "id_str": "839111462819876865",
+    "text": "@Autarkis @digitec_de Frohe Weihnachten und danke fürs Kompliment ;) ^tb",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Autarkis",
+          "name": "Raphael",
+          "id": 29175662,
+          "id_str": "29175662",
+          "indices": [
+            0,
+            9
+          ]
+        },
+        {
+          "screen_name": "digitec_de",
+          "name": "digitec",
+          "id": 50683042,
+          "id_str": "50683042",
+          "indices": [
+            10,
+            21
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 839103327325597700,
+    "in_reply_to_status_id_str": "839103327325597696",
+    "in_reply_to_user_id": 29175662,
+    "in_reply_to_user_id_str": "29175662",
+    "in_reply_to_screen_name": "Autarkis",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 13:15:46 +0000 2017",
+    "id": 839102275658350600,
+    "id_str": "839102275658350592",
+    "text": "@jjongsorry je transmets volontiers votre demande au département concerné. Bonne journée à vous aussi. ^tb",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "jjongsorry",
+          "name": "kjh",
+          "id": 792534774615248900,
+          "id_str": "792534774615248897",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 839046915148951600,
+    "in_reply_to_status_id_str": "839046915148951554",
+    "in_reply_to_user_id": 792534774615248900,
+    "in_reply_to_user_id_str": "792534774615248897",
+    "in_reply_to_screen_name": "jjongsorry",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "fr"
+  },
+  {
+    "created_at": "Tue Mar 07 12:54:06 +0000 2017",
+    "id": 839096823188963300,
+    "id_str": "839096823188963328",
+    "text": "@andreamonicahug @MyTreeTV Kunden dürfen unbeschränkt einkaufen. Dabei kann es vorkommen, dass einzelne Produkte ausverkauft sind. ^tb",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "andreamonicahug",
+          "name": "Andrea Monica Hug",
+          "id": 22357343,
+          "id_str": "22357343",
+          "indices": [
+            0,
+            16
+          ]
+        },
+        {
+          "screen_name": "MyTreeTV",
+          "name": "TREEmagazine",
+          "id": 59195104,
+          "id_str": "59195104",
+          "indices": [
+            17,
+            26
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 839065359567192000,
+    "in_reply_to_status_id_str": "839065359567192064",
+    "in_reply_to_user_id": 22357343,
+    "in_reply_to_user_id_str": "22357343",
+    "in_reply_to_screen_name": "andreamonicahug",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 12:27:10 +0000 2017",
+    "id": 839090043969024000,
+    "id_str": "839090043969024000",
+    "text": "@HelioDrazz Wir fragen gleich bei unserer Butter-Abteilung nach und geben dir Bescheid. Danke für die Geduld. ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "HelioDrazz",
+          "name": "HelioDrazz",
+          "id": 229639322,
+          "id_str": "229639322",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 838876578163589100,
+    "in_reply_to_status_id_str": "838876578163589121",
+    "in_reply_to_user_id": 229639322,
+    "in_reply_to_user_id_str": "229639322",
+    "in_reply_to_screen_name": "HelioDrazz",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 12:24:04 +0000 2017",
+    "id": 839089261580337200,
+    "id_str": "839089261580337152",
+    "text": "@vinschger Rückgabesystem für diese Verpackungsart ist flächendeckend in der Schweiz nicht möglich. ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "vinschger",
+          "name": "vinschger",
+          "id": 129169680,
+          "id_str": "129169680",
+          "indices": [
+            0,
+            10
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837974516739543000,
+    "in_reply_to_status_id_str": "837974516739543040",
+    "in_reply_to_user_id": 129169680,
+    "in_reply_to_user_id_str": "129169680",
+    "in_reply_to_screen_name": "vinschger",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 12:23:14 +0000 2017",
+    "id": 839089054570410000,
+    "id_str": "839089054570409985",
+    "text": "@vinschger Aus Platzgründen können nicht alle Varianten in allen Verpackungsarten angeboten werden. Zero Version gibt es jedoch als PET. ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "vinschger",
+          "name": "vinschger",
+          "id": 129169680,
+          "id_str": "129169680",
+          "indices": [
+            0,
+            10
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837974516739543000,
+    "in_reply_to_status_id_str": "837974516739543040",
+    "in_reply_to_user_id": 129169680,
+    "in_reply_to_user_id_str": "129169680",
+    "in_reply_to_screen_name": "vinschger",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 12:13:03 +0000 2017",
+    "id": 839086489170554900,
+    "id_str": "839086489170554881",
+    "text": "@FredericZRH Ce sont les coopératives qui fixent les prix. Dans quelle filiale avez-vous fait vos achats? ^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FredericZRH",
+          "name": "Fred",
+          "id": 180403852,
+          "id_str": "180403852",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 838831252455161900,
+    "in_reply_to_status_id_str": "838831252455161858",
+    "in_reply_to_user_id": 180403852,
+    "in_reply_to_user_id_str": "180403852",
+    "in_reply_to_screen_name": "FredericZRH",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "fr"
+  },
+  {
+    "created_at": "Tue Mar 07 12:10:15 +0000 2017",
+    "id": 839085787442479100,
+    "id_str": "839085787442479104",
+    "text": "@ThibautVultier Nous avons transmis votre question au service compétent. Le traitement de celle-ci peut prendre un certain temps.^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ThibautVultier",
+          "name": "Thibaut Vultier",
+          "id": 1681557823,
+          "id_str": "1681557823",
+          "indices": [
+            0,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 838822007995260900,
+    "in_reply_to_status_id_str": "838822007995260930",
+    "in_reply_to_user_id": 1681557823,
+    "in_reply_to_user_id_str": "1681557823",
+    "in_reply_to_screen_name": "ThibautVultier",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "fr"
+  },
+  {
+    "created_at": "Tue Mar 07 10:41:27 +0000 2017",
+    "id": 839063439188295700,
+    "id_str": "839063439188295680",
+    "text": "@kruzelecki @Sebyddd Thank you for the compliment. ^tb",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "kruzelecki",
+          "name": "Karol",
+          "id": 118051794,
+          "id_str": "118051794",
+          "indices": [
+            0,
+            11
+          ]
+        },
+        {
+          "screen_name": "Sebyddd",
+          "name": "✨Sebastian Dobrincu✨",
+          "id": 159743999,
+          "id_str": "159743999",
+          "indices": [
+            12,
+            20
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": 838837370216714200,
+    "in_reply_to_status_id_str": "838837370216714241",
+    "in_reply_to_user_id": 118051794,
+    "in_reply_to_user_id_str": "118051794",
+    "in_reply_to_screen_name": "kruzelecki",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Mar 07 08:22:29 +0000 2017",
+    "id": 839028465366089700,
+    "id_str": "839028465366089728",
+    "text": "@janzuppinger Leider zu wenig Nachfrage nach 1kg Einheit und zu wenig Platz im Regal für beide Varianten. ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "janzuppinger",
+          "name": "Anti.",
+          "id": 340712968,
+          "id_str": "340712968",
+          "indices": [
+            0,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837926243525877800,
+    "in_reply_to_status_id_str": "837926243525877760",
+    "in_reply_to_user_id": 340712968,
+    "in_reply_to_user_id_str": "340712968",
+    "in_reply_to_screen_name": "janzuppinger",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 08:01:58 +0000 2017",
+    "id": 839023304698658800,
+    "id_str": "839023304698658817",
+    "text": "@mat_doe Kleinverpackungen sind jedoch ein +Punkt für Kleinhaushalte. Grossformate werden oft nicht rechtzeitig gegessen und verderben. ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mat_doe",
+          "name": "Matthias Dörig",
+          "id": 497203210,
+          "id_str": "497203210",
+          "indices": [
+            0,
+            8
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 834456166667317200,
+    "in_reply_to_status_id_str": "834456166667317249",
+    "in_reply_to_user_id": 497203210,
+    "in_reply_to_user_id_str": "497203210",
+    "in_reply_to_screen_name": "mat_doe",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Tue Mar 07 07:59:05 +0000 2017",
+    "id": 839022578933055500,
+    "id_str": "839022578933055489",
+    "text": "@mat_doe Kleine Formate kosten tatsächlich viel mehr – sie generieren höhere Material- Transport- und Logistikkosten. ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mat_doe",
+          "name": "Matthias Dörig",
+          "id": 497203210,
+          "id_str": "497203210",
+          "indices": [
+            0,
+            8
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 834456166667317200,
+    "in_reply_to_status_id_str": "834456166667317249",
+    "in_reply_to_user_id": 497203210,
+    "in_reply_to_user_id_str": "497203210",
+    "in_reply_to_screen_name": "mat_doe",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 17:17:51 +0000 2017",
+    "id": 838800808296738800,
+    "id_str": "838800808296738818",
+    "text": "Jöö, bald kommen die Hasenbabys im Überraschungspaket – am Dienstag, 14. März gehts los! https://t.co/Q2ecvDviS1… https://t.co/JYYxJM2025",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Q2ecvDviS1",
+          "expanded_url": "http://www.migros.ch/hasenbabys",
+          "display_url": "migros.ch/hasenbabys",
+          "indices": [
+            89,
+            112
+          ]
+        },
+        {
+          "url": "https://t.co/JYYxJM2025",
+          "expanded_url": "https://twitter.com/i/web/status/838800808296738818",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            114,
+            137
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://twitter.facelift-cloud.com\" rel=\"nofollow\">Facelift Cloud</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 16,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 14:39:44 +0000 2017",
+    "id": 838761018398498800,
+    "id_str": "838761018398498816",
+    "text": "@fendog11 Nachfrage hier ist zu gross und es gibt zu wenig Schweizer Poulet. Tierwohlversprechen Generation M in Brasilien am Laufen. ^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "fendog11",
+          "name": "Martin F.",
+          "id": 323199071,
+          "id_str": "323199071",
+          "indices": [
+            0,
+            9
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837700174495551500,
+    "in_reply_to_status_id_str": "837700174495551489",
+    "in_reply_to_user_id": 323199071,
+    "in_reply_to_user_id_str": "323199071",
+    "in_reply_to_screen_name": "fendog11",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 13:30:58 +0000 2017",
+    "id": 838743710548492300,
+    "id_str": "838743710548492289",
+    "text": "@janzuppinger Wir klären das gerne an und melden und wieder bei dir. Danke für die Geduld! :-)^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "janzuppinger",
+          "name": "Anti.",
+          "id": 340712968,
+          "id_str": "340712968",
+          "indices": [
+            0,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837926243525877800,
+    "in_reply_to_status_id_str": "837926243525877760",
+    "in_reply_to_user_id": 340712968,
+    "in_reply_to_user_id_str": "340712968",
+    "in_reply_to_screen_name": "janzuppinger",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 13:28:47 +0000 2017",
+    "id": 838743161031766000,
+    "id_str": "838743161031766016",
+    "text": "@s_estermann Dann wohnst du wohl nicht nahe genug bei der Migros ;-) ^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "s_estermann",
+          "name": "Stefan Estermann",
+          "id": 404188590,
+          "id_str": "404188590",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 838694361990848500,
+    "in_reply_to_status_id_str": "838694361990848512",
+    "in_reply_to_user_id": 404188590,
+    "in_reply_to_user_id_str": "404188590",
+    "in_reply_to_screen_name": "s_estermann",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 11:54:02 +0000 2017",
+    "id": 838719318732984300,
+    "id_str": "838719318732984320",
+    "text": "@vinschger Haben noch keine Antwort von der Getränke-Abteilung. Melden uns asap.^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "vinschger",
+          "name": "vinschger",
+          "id": 129169680,
+          "id_str": "129169680",
+          "indices": [
+            0,
+            10
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837974516739543000,
+    "in_reply_to_status_id_str": "837974516739543040",
+    "in_reply_to_user_id": 129169680,
+    "in_reply_to_user_id_str": "129169680",
+    "in_reply_to_screen_name": "vinschger",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 11:44:31 +0000 2017",
+    "id": 838716923676356600,
+    "id_str": "838716923676356609",
+    "text": "@mat_doe Wir müssen dich noch ein wenig um Geduld bitten, antworten aber asap.^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mat_doe",
+          "name": "Matthias Dörig",
+          "id": 497203210,
+          "id_str": "497203210",
+          "indices": [
+            0,
+            8
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 834456166667317200,
+    "in_reply_to_status_id_str": "834456166667317249",
+    "in_reply_to_user_id": 497203210,
+    "in_reply_to_user_id_str": "497203210",
+    "in_reply_to_screen_name": "mat_doe",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 10:42:58 +0000 2017",
+    "id": 838701432295600100,
+    "id_str": "838701432295600128",
+    "text": "@ralfbeyeler Wir leiten deinen Input gerne an unsere Schoggifee weiter, können dir aber nichts versprechen.^ms",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ralfbeyeler",
+          "name": "Ralf Beyeler",
+          "id": 26001623,
+          "id_str": "26001623",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837659737504243700,
+    "in_reply_to_status_id_str": "837659737504243713",
+    "in_reply_to_user_id": 26001623,
+    "in_reply_to_user_id_str": "26001623",
+    "in_reply_to_screen_name": "ralfbeyeler",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 10:24:15 +0000 2017",
+    "id": 838696723581120500,
+    "id_str": "838696723581120512",
+    "text": "@ninubinu Die Marke ist zuständig für den Modellnamen. Wir sind uns aber sicher, dass auch Herren mit Freude damit ihre Wäsche aufhängen^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ninubinu",
+          "name": "Annina K.",
+          "id": 272527476,
+          "id_str": "272527476",
+          "indices": [
+            0,
+            9
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837729453874810900,
+    "in_reply_to_status_id_str": "837729453874810882",
+    "in_reply_to_user_id": 272527476,
+    "in_reply_to_user_id_str": "272527476",
+    "in_reply_to_screen_name": "ninubinu",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 09:46:47 +0000 2017",
+    "id": 838687291883257900,
+    "id_str": "838687291883257856",
+    "text": "@bluebell566 Wir sind laufend dabei, unser System zu optimieren. Auch deine Rückmeldung geben wir gerne weiter. ^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "bluebell566",
+          "name": "Susan",
+          "id": 276919758,
+          "id_str": "276919758",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 838060126238027800,
+    "in_reply_to_status_id_str": "838060126238027778",
+    "in_reply_to_user_id": 276919758,
+    "in_reply_to_user_id_str": "276919758",
+    "in_reply_to_screen_name": "bluebell566",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 09:39:23 +0000 2017",
+    "id": 838685431097143300,
+    "id_str": "838685431097143297",
+    "text": "@FredericZRH Merci pour votre message. Je le transmets volontiers au département concerné afin qu’ils puissent étudier la question. ^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FredericZRH",
+          "name": "Fred",
+          "id": 180403852,
+          "id_str": "180403852",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837989961236361200,
+    "in_reply_to_status_id_str": "837989961236361216",
+    "in_reply_to_user_id": 180403852,
+    "in_reply_to_user_id_str": "180403852",
+    "in_reply_to_screen_name": "FredericZRH",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "fr"
+  },
+  {
+    "created_at": "Mon Mar 06 09:05:51 +0000 2017",
+    "id": 838676990865588200,
+    "id_str": "838676990865588225",
+    "text": "@n_brivio Merci für deine Rückmeldung. Leite ich gerne an die Filiale weiter. ^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "n_brivio",
+          "name": "Nicolas Brivio",
+          "id": 824244914024226800,
+          "id_str": "824244914024226817",
+          "indices": [
+            0,
+            9
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 838661882114412500,
+    "in_reply_to_status_id_str": "838661882114412544",
+    "in_reply_to_user_id": 824244914024226800,
+    "in_reply_to_user_id_str": "824244914024226817",
+    "in_reply_to_screen_name": "n_brivio",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 08:02:33 +0000 2017",
+    "id": 838661060655734800,
+    "id_str": "838661060655734784",
+    "text": "@n_brivio Wie die Wägeli ausgerüstet sind entscheiden die Filialen. Um welche Filiale geht es? Ich leite dein  Wunsch gerne weiter. ^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "n_brivio",
+          "name": "Nicolas Brivio",
+          "id": 824244914024226800,
+          "id_str": "824244914024226817",
+          "indices": [
+            0,
+            9
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 837716569455198200,
+    "in_reply_to_status_id_str": "837716569455198209",
+    "in_reply_to_user_id": 824244914024226800,
+    "in_reply_to_user_id_str": "824244914024226817",
+    "in_reply_to_screen_name": "n_brivio",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Mon Mar 06 07:58:45 +0000 2017",
+    "id": 838660106787172400,
+    "id_str": "838660106787172353",
+    "text": "@B0_GH Oh danke für deine Rückmeldung. Kannst du mir sagen um welche Rösti es sich handelt, damit wir das ändern können? ^nf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "B0_GH",
+          "name": "Brandabarbarán 🎩",
+          "id": 319732465,
+          "id_str": "319732465",
+          "indices": [
+            0,
+            6
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 838057058134020100,
+    "in_reply_to_status_id_str": "838057058134020097",
+    "in_reply_to_user_id": 319732465,
+    "in_reply_to_user_id_str": "319732465",
+    "in_reply_to_screen_name": "B0_GH",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Fri Mar 03 15:46:16 +0000 2017",
+    "id": 837690596747796500,
+    "id_str": "837690596747796480",
+    "text": "@naehdrescherin Die Genossenschaft wurde aber darauf hingewiesen, bald ablaufene Produkte frühzeitig aus dem Verkauf zu nehmen. 3/3 ^cm",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "naehdrescherin",
+          "name": "Zora Debrunner ♥",
+          "id": 49996637,
+          "id_str": "49996637",
+          "indices": [
+            0,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 835070101384794100,
+    "in_reply_to_status_id_str": "835070101384794112",
+    "in_reply_to_user_id": 49996637,
+    "in_reply_to_user_id_str": "49996637",
+    "in_reply_to_screen_name": "naehdrescherin",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Fri Mar 03 15:45:46 +0000 2017",
+    "id": 837690470235013100,
+    "id_str": "837690470235013120",
+    "text": "@naehdrescherin Die Tartare-Verpackung ist also auch bei unseren Konkurrenten und in verschiedenen Ländern in dieser Weise datiert. 2/3",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "naehdrescherin",
+          "name": "Zora Debrunner ♥",
+          "id": 49996637,
+          "id_str": "49996637",
+          "indices": [
+            0,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 835070101384794100,
+    "in_reply_to_status_id_str": "835070101384794112",
+    "in_reply_to_user_id": 49996637,
+    "in_reply_to_user_id_str": "49996637",
+    "in_reply_to_screen_name": "naehdrescherin",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  },
+  {
+    "created_at": "Fri Mar 03 15:45:17 +0000 2017",
+    "id": 837690351284518900,
+    "id_str": "837690351284518912",
+    "text": "@naehdrescherin Die Doppeldatierung ist eine spezifische Migros-Vorgabe und muss von int. Herstellern nicht eingehalten werden. 1/3",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "naehdrescherin",
+          "name": "Zora Debrunner ♥",
+          "id": 49996637,
+          "id_str": "49996637",
+          "indices": [
+            0,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.lithium.com\" rel=\"nofollow\">Lithium Tech.</a>",
+    "in_reply_to_status_id": 835070101384794100,
+    "in_reply_to_status_id_str": "835070101384794112",
+    "in_reply_to_user_id": 49996637,
+    "in_reply_to_user_id_str": "49996637",
+    "in_reply_to_screen_name": "naehdrescherin",
+    "user": {
+      "id": 63655447,
+      "id_str": "63655447",
+      "name": "Migros",
+      "screen_name": "migros",
+      "location": "Switzerland",
+      "description": "Das orange M twittert: Wir engagieren uns für jedes einzelne deiner Zeichen. // Über mehr als 140 Zeichen freut sich unsere M-Infoline: http://t.co/87t9vJDC1z",
+      "url": "http://t.co/2oKGLysXHb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/2oKGLysXHb",
+              "expanded_url": "http://www.migros.ch",
+              "display_url": "migros.ch",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/87t9vJDC1z",
+              "expanded_url": "http://www.migros.ch/kontakt",
+              "display_url": "migros.ch/kontakt",
+              "indices": [
+                136,
+                158
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 101954,
+      "friends_count": 1139,
+      "listed_count": 254,
+      "created_at": "Fri Aug 07 06:08:59 +0000 2009",
+      "favourites_count": 6726,
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 13963,
+      "lang": "de",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FF6600",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/656085536646500352/VHhGonYS.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224639439/twitter_profilbild_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63655447/1399271069",
+      "profile_link_color": "FF6600",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "434343",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "de"
+  }
+]

@@ -1,6 +1,6 @@
 # Consumer loyalty program 
 
-
+DESCRIPTION TODO
 
 # Server
 
@@ -11,8 +11,8 @@ First try:
 ```bash
 cd server
 npm install
+cp .env.example .env
 npm start
-cp .env.sample .env
 ```
 
 and then visit:
@@ -32,4 +32,16 @@ To query things in endpoints please lookinto
 
 ```bash
 nodemon -d 1 -w ./ -e js, -x 'curl localhost:3000/user-reviews/  -H "Content-Type: application/json"  -d \'{"data":"LEtter - see what happens"}\''
+```
+
+## Sentiments: get all good german ones for product 1 
+
+```bash
+curl 'http://localhost:3000/sentiments?lang=de&sentiment=good&productId=1&_expand=product' -s | jq
+```
+
+## Extracting user network tweets social media
+
+```bash
+curl 'localhost:3000/user-tweets?twitter=syzer3'
 ```
