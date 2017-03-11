@@ -2,6 +2,7 @@ const axios = require('axios')
 const express = require('express')
 const { protocol, ip, port } = require('../../config')
 const baseUrl = `${protocol}${ip}:${port}`
+const sentimentAnalyserUrl = 'http://master-2c6ikency6yo4.eu.platform.sh/sentiment'
 const router = express.Router()
 
 const onError = (next) =>
@@ -10,39 +11,26 @@ const onError = (next) =>
         next(error)
     }
 
-//nodemon -w ./ -d 1 -x 'curl localhost:3000/user-sentiments -H "Content-Type: application/json" -d @userSentiments/sentiment.json'
-
+// nodemon -w ./ -d 1 -x 'curl localhost:3000/user-sentiments -H "Content-Type: application/json" -d @userSentiments/sentiment.json'
+// =>
+// {
+//     "lang": "en",
+//     "sentiment": "good"
+// }
+// TODO store that stuff in our db...
 const postReview = (req, res, next) => {
-    console.log(req.body)
-    return res.json(42)
+    const { text, productId, id } = req.body
+    console.log(productId, id)
 
-
+    // http://master-2c6ikency6yo4.eu.platform.sh/sentiment?text=asdaasd%20awesome
+    axios.get(sentimentAnalyserUrl, {
+        params: {
+            text
+        }
+    }).then(({ data }) => res.json(data))
+        .catch(onError(next))
 }
 
-
-// const getReviews = (req, res, next) =>
-//     axios.get(baseUrl + '/products/1')
-//         .then(({ data }) => data)
-//         .then(product => res.json(product))
-//         .catch(onError(next))
-
-// const postUserAudioReview = (req, res, next) => {
-//     const id = req.param('id') || 1
-
-    // TODO here call to microsoft
-
-    // console.warn('resr')
-    // res.send('test')
-
-//     axios.get(baseUrl + `/products/${id}?_embed=reviews&_embed=sentiments`)
-//         .then(({ data }) => data)
-//         .then(product => res.json(product))
-//         .catch(onError(next))
-// }
-
 router.post('/', postReview)
-
-// router.get('/', getReviews)
-// router.post('/', postUserAudioReview)
 
 module.exports = router
