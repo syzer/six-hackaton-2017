@@ -16,12 +16,12 @@ let client = new BingSpeechClient(bingSpeechKey)
 
 // curl -X POST 'localhost:3000/voice-recognitions' -d @assets/product1-review.wav
 // {"transcript": "hi i'm on my way to be available high quality text to speech voices select download not to install my voice"}
-const postTranscript = (req, res, next) => {
+const postTranscript = (req, res, next) =>
     client
         .recognizeStream(fs.createReadStream(mockFile))
+        // .recognize(req.body)
         .then(({ results }) => res.json(results[0].name))
         .catch(onError(next))
-}
 
 router.post('/', postTranscript)
 
