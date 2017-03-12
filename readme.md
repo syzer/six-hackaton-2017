@@ -136,3 +136,16 @@ with userId and productId
 ```bash
 curl 'localhost:3000/voice-recognitions?productId=1&userId=1' -F 'file=@assets/product1-review.wav'  -vvv
 ```
+
+will post new review
+
+```json
+{
+  "lang": "en",
+  "text": "those knives are sharp one of best I have ever use keep up the good work",
+  "productId": "1",
+  "sentiment": "good",
+  "id": 7,
+  "stars": 5
+}
+```

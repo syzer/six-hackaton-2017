@@ -4,6 +4,9 @@ const onError = (next) =>
         next(error)
     }
 
+const getData = ({data}) => data
+
 module.exports = {
-    onError
+    onError,
+    getData
 }
