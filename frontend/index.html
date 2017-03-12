@@ -348,10 +348,16 @@
     <script src="js/socket.io.js"></script>
 
     <script>
-        var socket = io('http://localhost:3001')
+        const socket = io('http://localhost:3001')
         socket.on('connect', console.warn)
         socket.on('review', console.warn)
         socket.on('disconnect', console.warn)
+        socket.on('newHotDeals', console.warn)
+
+        setTimeout(() => {
+            socket.emit('getNotifications', {})
+        }, 1000)
+
     </script>
 
     <!-- jQuery -->

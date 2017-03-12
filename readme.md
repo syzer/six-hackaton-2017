@@ -142,3 +142,11 @@ will post new review
   "stars": 5
 }
 ```
+
+# Getting notifications for user
+
+See if there is something interesting nearby you could buy or get discount on.
+
+```bash
+curl 'localhost:3000/user-notifications?userId=1&lat=47&lng=8.5'
+```
