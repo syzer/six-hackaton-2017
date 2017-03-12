@@ -13,24 +13,25 @@ const middlewares = jsonServer.defaults()
 
 server.use(cors())
 server.use(bodyParser.json({ limit: '150mb' }))
- server.use(bodyParser.urlencoded({
+server.use(bodyParser.urlencoded({
     limit: '150mb',
     extended: false,
     parameterLimit: 1000000
 }))
 
-server.use(bodyParser.raw({
-    inflate: true,
-    limit: '150mb',
+// server.use(bodyParser.raw({
+//     inflate: true,
+//     limit: '150mb',
     // type: 'application/*'
     // type: 'multipart/form-data'
     // type: 'application/x-www-form-urlencoded'
     // type: '*/*'
-}))
+// }))
 
 
 server.use(middlewares)
 server.use('/assets', express.static(path.join(__dirname, 'assets')))
+server.use('/frontend', express.static(path.join(__dirname, '../frontend')))
 
 server.use('/voice-recognitions', require('./api/voiceRecognitions'))
 server.use('/user-reviews', require('./api/userReviews'))
