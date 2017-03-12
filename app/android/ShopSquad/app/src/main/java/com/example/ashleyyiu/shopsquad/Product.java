@@ -299,10 +299,10 @@ public class Product extends AppCompatActivity {
         productImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
     }
 
-    @Override
+    /*@Override
     protected void onDestroy() {
         super.onDestroy();
         webSocketClient.disconnect();
-    }
+    }*/
 }
 
