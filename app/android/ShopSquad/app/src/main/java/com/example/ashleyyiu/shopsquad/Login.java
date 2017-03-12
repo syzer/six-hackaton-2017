@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.os.Looper;
+import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.Display;
 import android.view.Gravity;
@@ -26,6 +27,7 @@ import cz.msebera.android.httpclient.client.methods.HttpPost;
 import cz.msebera.android.httpclient.entity.StringEntity;
 import cz.msebera.android.httpclient.impl.client.DefaultHttpClient;
 import cz.msebera.android.httpclient.params.HttpConnectionParams;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -34,7 +36,7 @@ import java.util.Collections;
 
 public class Login extends Activity {
 
-    private static final String BASE_URL = "http://172.30.5.233:3000/";
+    private static final String BASE_URL = "http://172.30.7.54:3000/";
 
     private CallbackManager callbackManager;
     private LoginButton loginButton;
@@ -48,7 +50,6 @@ public class Login extends Activity {
         callbackManager = CallbackManager.Factory.create();
 
         queue = Volley.newRequestQueue(this);
-
 
         // app logo
         ImageView logo = (ImageView) findViewById(R.id.shopSquadLogo);
@@ -111,36 +112,33 @@ public class Login extends Activity {
         Log.d("login", "userId: " + userId);
 
         // friends list request
-        new GraphRequest(AccessToken.getCurrentAccessToken(),
-                "/" + userId + "/friends",
-                null,
-                HttpMethod.GET,
-                new GraphRequest.Callback() {
-                    @Override
-                    public void onCompleted(GraphResponse response) {
-                        try {
-                            Log.d("login", "Friend list: " + response.getJSONObject().toString(2));
-                        } catch (JSONException e) {
-                            Log.e("login", e.getMessage());
-                        }
-                        sendLogin(userId, response.getJSONObject());
-                    }
+        GraphRequest.newMyFriendsRequest(AccessToken.getCurrentAccessToken(),
+                new GraphRequest.GraphJSONArrayCallback() {
+                   @Override
+                   public void onCompleted(JSONArray objects, GraphResponse response) {
+                       try {
+                           Log.d("login", "Friend list: " + objects.toString(2));
+                       } catch (JSONException e) {
+                           Log.e("login", e.getMessage());
+                       }
+                       sendLogin(objects);
+                   }
                 }).executeAsync();
+
 
         Intent intent = new Intent(findViewById(R.id.login_button).getContext(), TimelineActivity.class);
         startActivity(intent);
     }
 
-    private void sendLogin(String userId, JSONObject friends) {
+    private void sendLogin(JSONArray friends) {
         try {
+            JSONObject post = new JSONObject();
             Profile p = Profile.getCurrentProfile();
-            JSONObject postData = new JSONObject();
-            postData.put("id", userId);
-            postData.put("name", p.getName());
-            postData.put("summary", friends.getJSONObject("summary"));
-
+            post.put("userId", p.getId());
+            post.put("name", p.getName());
+            post.put("friends", friends);
             JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, BASE_URL + "logins",
-                    postData, new Response.Listener<JSONObject>() {
+                    post, new Response.Listener<JSONObject>() {
 
                 @Override
                 public void onResponse(JSONObject response) {

@@ -25,12 +25,14 @@
             android:text="log in using facebook"
             android:id="@+id/fakebutton"
             android:textColor="#1E669B"
-            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textSize="15dp"
         android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-        android:fontFamily="Georgia"
+        android:fontFamily="sans-serif-light"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="50dp"
+        android:capitalize="none" />
 
     <com.facebook.login.widget.LoginButton
             android:id="@+id/login_button"

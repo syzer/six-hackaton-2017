@@ -1,10 +1,14 @@
 package com.example.ashleyyiu.shopsquad;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Point;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,40 +16,73 @@ import android.view.Display;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.codebutler.android_websockets.WebSocketClient;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
+import cz.msebera.android.httpclient.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
+import java.util.Collections;
 
 import cz.msebera.android.httpclient.Header;
 
 public class Product extends AppCompatActivity {
-    static final String IP = "10.0.2.2";
+    static final String IP = "172.30.7.18";
     String jsonObjString = "";
     JSONArray jsonReviews;
     JSONObject jsonObject;
     int itemNumber;
     String allReviews = "";
+    private WebSocketClient webSocketClient;
+    private NotificationManager mNotificationManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product);
+
+        /*webSocketClient = new WebSocketClient(URI.create("wss://" + IP + "3001"), new WebSocketClient.Listener() {
+            @Override
+            public void onConnect() {
+                Log.d("ws", "connected");
+            }
+
+            @Override
+            public void onMessage(String message) {
+                stringMessageHandler(message);
+            }
+
+            @Override
+            public void onMessage(byte[] data) {
+                byteMessageHandler(data);
+            }
+
+            @Override
+            public void onDisconnect(int code, String reason) {
+               Log.d("ws", String.format("Disconnected with code %d, reason: %s", code, reason));
+            }
+
+            @Override
+            public void onError(Exception error) {
+                Log.e("ws", error.getMessage());
+            }
+        }, Collections.<BasicNameValuePair>emptyList());*/
+
+        mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
         // stop the keyboard from popping up
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
@@ -54,8 +91,8 @@ public class Product extends AppCompatActivity {
         Intent intent = getIntent();
         itemNumber = intent.getIntExtra("itemNumber", -1);
         jsonObjString = intent.getStringExtra("product");
-        Log.d("d", "item num:"+itemNumber);
-        Log.d("d", "jsonObj:"+jsonObjString);
+        Log.d("d", "item num:" + itemNumber);
+        Log.d("d", "jsonObj:" + jsonObjString);
 
         try {
             jsonObject = new JSONObject(jsonObjString);
@@ -78,9 +115,9 @@ public class Product extends AppCompatActivity {
                 // extract text from review box
                 EditText reviewBox = (EditText) findViewById(R.id.reviewBox);
                 String reviewText = reviewBox.getText().toString();
-                Toast.makeText(getApplicationContext(), "Thank you for leaving a review! Now you can keep browsing for cool finds :)" , Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Thank you for leaving a review! Now you can keep browsing for cool finds :)", Toast.LENGTH_LONG).show();
                 reviewBox.setText("");
-                Log.d("d", "Review: "+reviewText);
+                Log.d("d", "Review: " + reviewText);
 
             }
         });
@@ -106,8 +143,53 @@ public class Product extends AppCompatActivity {
         getReviews();
     }
 
-    private void getReviews()
-    {
+    private void stringMessageHandler(String msg) {
+        NotificationCompat.Builder mBuilder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.drawable.com_facebook_favicon_blue)
+                        .setContentTitle("New notification")
+                        .setContentText(msg);
+        Intent resultIntent = new Intent(this, Product.class);
+
+        TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
+// Adds the back stack for the Intent (but not the Intent itself)
+        stackBuilder.addParentStack(Product.class);
+// Adds the Intent that starts the Activity to the top of the stack
+        stackBuilder.addNextIntent(resultIntent);
+        PendingIntent resultPendingIntent =
+                stackBuilder.getPendingIntent(
+                        0,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
+        mBuilder.setContentIntent(resultPendingIntent);
+
+        mNotificationManager.notify(1, mBuilder.build());
+    }
+
+    private void byteMessageHandler(byte[] msg) {
+        NotificationCompat.Builder mBuilder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.drawable.com_facebook_favicon_blue)
+                        .setContentTitle("New notification")
+                        .setContentText(new String(msg));
+        Intent resultIntent = new Intent(this, Product.class);
+
+        TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
+// Adds the back stack for the Intent (but not the Intent itself)
+        stackBuilder.addParentStack(Product.class);
+// Adds the Intent that starts the Activity to the top of the stack
+        stackBuilder.addNextIntent(resultIntent);
+        PendingIntent resultPendingIntent =
+                stackBuilder.getPendingIntent(
+                        0,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
+        mBuilder.setContentIntent(resultPendingIntent);
+
+        mNotificationManager.notify(1, mBuilder.build());
+    }
+
+    private void getReviews() {
         allReviews = "";
 
         Log.d("d", "Sending get for reviews...");
@@ -141,10 +223,9 @@ public class Product extends AppCompatActivity {
                         Log.d("d", "jsonProductId: " + jsonProductId);
                         Log.d("d", "itemNumber: " + String.valueOf(itemNumber));
 
-                        Log.d("d", "same?" +jsonProductId.equals(String.valueOf(itemNumber)));
+                        Log.d("d", "same?" + jsonProductId.equals(String.valueOf(itemNumber)));
 
-                        if(jsonProductId.equals(String.valueOf(itemNumber)))
-                        {
+                        if (jsonProductId.equals(String.valueOf(itemNumber))) {
                             Log.d("d", "Score");
                             Log.d("d", "author: " + jsonReviews.getJSONObject(i).getString("author"));
                             Log.d("d", "itemNumber: " + jsonReviews.getJSONObject(i).getString("review"));
@@ -157,7 +238,12 @@ public class Product extends AppCompatActivity {
                     }
 
                     TextView reviewText = (TextView) findViewById(R.id.reviews);
-                    reviewText.setText(allReviews);
+
+                    if (allReviews.length() != 0) {
+                        reviewText.setText(allReviews);
+                    } else {
+                        reviewText.setText("No reviews");
+                    }
 
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -181,11 +267,11 @@ public class Product extends AppCompatActivity {
             }
 
         });
+        //webSocketClient.send("getNotifications");
     }
 
 
-    private void setImage()
-    {
+    private void setImage() {
 
         // load product image
         ImageView productImage = (ImageView) findViewById(R.id.productImage);
@@ -194,7 +280,7 @@ public class Product extends AppCompatActivity {
         Display display = getWindowManager().getDefaultDisplay();
         Point size = new Point();
         display.getSize(size);
-        double imageWidthDouble = (double) (size.x/3) *2;
+        double imageWidthDouble = (double) (size.x / 3) * 2;
         int imageWidthInt = (int) imageWidthDouble;
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(imageWidthInt, imageWidthInt);
         layoutParams.gravity = Gravity.LEFT;
@@ -217,5 +303,11 @@ public class Product extends AppCompatActivity {
         productImage.setLayoutParams(layoutParams);
         productImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
     }
+
+    /*@Override
+    protected void onDestroy() {
+        super.onDestroy();
+        webSocketClient.disconnect();
+    }*/
 }
 

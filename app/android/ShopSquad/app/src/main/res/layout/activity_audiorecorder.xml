@@ -22,13 +22,14 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="record review"
+            android:text="Record a review"
             android:id="@+id/recordbutton"
             android:textColor="#1E669B"
             android:textSize="20dp"
+            android:textAllCaps="false"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:fontFamily="Georgia"
+            android:fontFamily="sans-serif-light"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginTop="50dp"/>
 
