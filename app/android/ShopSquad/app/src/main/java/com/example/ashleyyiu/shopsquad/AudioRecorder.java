@@ -13,8 +13,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.Volley;
 import cz.msebera.android.httpclient.client.HttpClient;
 
 import java.io.File;
@@ -26,20 +28,21 @@ import static android.media.AudioRecord.getMinBufferSize;
 
 public class AudioRecorder extends Activity {
     private static final int RECORDER_SAMPLERATE = 8000;
-    private static final int RECORDER_CHANNELS = AudioFormat.CHANNEL_IN_MONO;
-    private static final int RECORDER_AUDIO_ENCODING = AudioFormat.ENCODING_PCM_16BIT;
     private AudioRecord recorder = null;
     private Thread recordingThread = null;
     private boolean isRecording = false;
+    private RequestQueue queue;
 
-    int BufferElements2Rec = 1024; // want to play 2048 (2K) since 2 bytes we use only 1024
-    int BytesPerElement = 2; // 2 bytes in 16bit format
+
+    static final int BufferElements2Rec = 8196; // want to play 2048 (2K) since 2 bytes we use only 1024
+    static final int BytesPerElement = 2; // 2 bytes in 16bit format
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_audiorecorder);
 
+        queue = Volley.newRequestQueue(this);
         // app logo
         ImageView logo = (ImageView) findViewById(R.id.shopSquadLogo);
 
@@ -60,15 +63,22 @@ public class AudioRecorder extends Activity {
 
         btn.setOnClickListener(btnClick);
 
-        int bufferSize = getMinBufferSize(RECORDER_SAMPLERATE, RECORDER_CHANNELS, RECORDER_AUDIO_ENCODING);
-
     }
 
 
     private void startRecording() {
 
-        recorder = new AudioRecord(MediaRecorder.AudioSource.MIC, RECORDER_SAMPLERATE, RECORDER_CHANNELS,
-                RECORDER_AUDIO_ENCODING, BufferElements2Rec * BytesPerElement);
+        recorder = new AudioRecord.Builder()
+                .setAudioSource(MediaRecorder.AudioSource.MIC)
+                .setAudioFormat(new AudioFormat.Builder()
+                .setEncoding(AudioFormat.ENCODING_PCM_16BIT)
+                .setSampleRate(RECORDER_SAMPLERATE)
+                .setChannelMask(AudioFormat.CHANNEL_IN_MONO)
+                .build())
+                .setBufferSizeInBytes(AudioRecord.getMinBufferSize(RECORDER_SAMPLERATE,
+                        AudioFormat.CHANNEL_IN_MONO,
+                        AudioFormat.ENCODING_PCM_16BIT))
+        .build();
 
         recorder.startRecording();
         isRecording = true;
@@ -173,5 +183,6 @@ public class AudioRecorder extends Activity {
                     }
                 }, tmpFile, Collections.<String, String>emptyMap());
 
+        queue.add(request);
     }
 }

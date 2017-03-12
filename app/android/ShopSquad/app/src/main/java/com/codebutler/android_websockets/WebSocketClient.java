@@ -5,10 +5,11 @@ import android.os.HandlerThread;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
-import org.apache.http.*;
-import org.apache.http.client.HttpResponseException;
-import org.apache.http.message.BasicLineParser;
-import org.apache.http.message.BasicNameValuePair;
+import cz.msebera.android.httpclient.*;
+import cz.msebera.android.httpclient.client.HttpResponseException;
+import cz.msebera.android.httpclient.message.BasicLineParser;
+import cz.msebera.android.httpclient.message.BasicNameValuePair;
+
 
 import javax.net.SocketFactory;
 import javax.net.ssl.SSLContext;

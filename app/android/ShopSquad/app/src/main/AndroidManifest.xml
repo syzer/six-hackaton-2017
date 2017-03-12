@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".TimelineActivity" />
         <activity android:name=".Product"/>
+        <activity android:name=".AudioRecorder"/>
         <uses-permission android:name="android.permission.RECORD_AUDIO" />
         <uses-permission android:name="android.permission.INTERNET"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
