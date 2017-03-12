@@ -156,3 +156,4 @@ typings/
 
 # dotenv environment variables file
 .env
+/server/assets/product1-review.wav.temp.wav

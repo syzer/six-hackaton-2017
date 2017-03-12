@@ -7,6 +7,7 @@ const cors = require('cors')
 const express = require('express')
 const socket = require('socket.io')
 const bodyParser = require('body-parser')
+const fileUpload = require('express-fileupload')
 
 const server = jsonServer.create()
 const app = require('http').createServer(server)
@@ -18,18 +19,9 @@ server.use(cors())
 server.use(bodyParser.json({ limit: '150mb' }))
 server.use(bodyParser.urlencoded({
     limit: '150mb',
-    extended: false,
-    parameterLimit: 1000000
+    extended: true
 }))
-
-// server.use(bodyParser.raw({
-//     inflate: true,
-//     limit: '150mb',
-// type: 'application/*'
-// type: 'multipart/form-data'
-// type: 'application/x-www-form-urlencoded'
-// type: '*/*'
-// }))
+server.use(fileUpload())
 
 
 server.use(middlewares)
