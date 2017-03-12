@@ -53,7 +53,7 @@ module.exports = io => {
         // return res.json({ lat, lng, userId })
         // find hot nearby hot purchases
         // curl 'localhost:3000/purchases?lat_gte=45&lat_lte=47.9&lng_gte=8&lng_lte=8.5&_expand=product'
-        return axios.get(url + `/purchases?${nearby({ lat, lng })}`)
+        return axios.get(url + `/purchases?${nearby({ lat, lng })}&_expand=product`)
             .then(getData)
             .then(data => res.json(data))
             .catch(onError(next))

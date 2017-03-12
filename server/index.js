@@ -42,8 +42,8 @@ io.on('connection', (client) => {
     io.emit('review', { much: 'wow!' })
 })
 
-app.listen(3001, () => {
-    console.log('Socket on http://localhost:3001')
+app.listen(3001, ip, () => {
+    console.log(`Socket on http://${ip}:${port}/`)
 })
 
 server.listen(port, ip, () => {
