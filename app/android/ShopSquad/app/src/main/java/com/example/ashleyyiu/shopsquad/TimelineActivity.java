@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Point;
 import android.net.Uri;
+import android.os.Build;
 import android.os.StrictMode;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
@@ -15,6 +16,7 @@ import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
@@ -54,7 +56,8 @@ import cz.msebera.android.httpclient.Header;
  */
 public class TimelineActivity extends Activity {
 
-    static final String IP = "172.30.5.233";
+    static final String IP = "172.30.7.54";
+    int gridWidth;
     // references to images
     public ArrayList<String> imageURLs = new ArrayList<String>();
     public ArrayList<JSONObject> allJSONObjs = new ArrayList<JSONObject>();
@@ -163,7 +166,7 @@ public class TimelineActivity extends Activity {
             Display display = getWindowManager().getDefaultDisplay();
             Point size = new Point();
             display.getSize(size);
-            int gridWidth = size.x / 2 - size.x / 10;
+            gridWidth = size.x / 2 - size.x / 10;
             int padding = (int) size.x / 10;
 
             if (convertView == null) {
@@ -243,7 +246,6 @@ public class TimelineActivity extends Activity {
                 // received a valid response
                 String response = new String(responseBody);
                 Log.d("d", "responseBody is not null:" + response);
-                Toast.makeText(getApplicationContext(), "responseBody is not null", Toast.LENGTH_LONG).show();
 
                 try {
 
@@ -263,7 +265,6 @@ public class TimelineActivity extends Activity {
                 }
 
                 Log.d("d", "Exiting successful request");
-
 
                 // create gridView here
                 GridView gridview = (GridView) findViewById(R.id.gridView);

@@ -34,7 +34,7 @@ import java.util.Collections;
 
 public class Login extends Activity {
 
-    private static final String BASE_URL = "http://172.30.5.233:3000/";
+    private static final String BASE_URL = "http://172.30.7.54:3000/";
 
     private CallbackManager callbackManager;
     private LoginButton loginButton;
@@ -48,7 +48,6 @@ public class Login extends Activity {
         callbackManager = CallbackManager.Factory.create();
 
         queue = Volley.newRequestQueue(this);
-
 
         // app logo
         ImageView logo = (ImageView) findViewById(R.id.shopSquadLogo);

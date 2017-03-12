@@ -35,7 +35,7 @@ import java.net.URL;
 import cz.msebera.android.httpclient.Header;
 
 public class Product extends AppCompatActivity {
-    static final String IP = "10.0.2.2";
+    static final String IP = "172.30.7.54";
     String jsonObjString = "";
     JSONArray jsonReviews;
     JSONObject jsonObject;
@@ -157,7 +157,12 @@ public class Product extends AppCompatActivity {
                     }
 
                     TextView reviewText = (TextView) findViewById(R.id.reviews);
-                    reviewText.setText(allReviews);
+
+                    if (allReviews.length() != 0) {
+                        reviewText.setText(allReviews);
+                    } else {
+                        reviewText.setText("No reviews");
+                    }
 
                 } catch (Exception e) {
                     e.printStackTrace();
