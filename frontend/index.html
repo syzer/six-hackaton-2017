@@ -354,7 +354,10 @@
         socket.on('disconnect', console.warn)
         socket.on('newHotDeals', console.warn)
 
-        socket.emit('getNotifications')
+        setTimeout(() => {
+            socket.emit('getNotifications', {})
+        }, 1000)
+
     </script>
 
     <!-- jQuery -->

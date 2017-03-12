@@ -14,12 +14,17 @@ const getHotDeals = ({ lat, lng }) =>
 
 module.exports = io => {
 
-    // TODO user
-    io.on('getNotifications', ({ lat = 47, lng = 8.5, userId = 1 }) => {
-        console.warn('getting', lat, lng)
+    io.on('connection', (client) => {
+        console.log('client connected', client.id)
 
-        getHotDeals({lat, lng}).then(deals =>
-            io.emit('newHotDeals', deals))
+        io.emit('review', { much: 'wow!' })
+
+        client.on('getNotifications', ({ lat = 47, lng = 8.5, userId = 1 }) => {
+            getHotDeals({ lat, lng }).then(deals => {
+                console.warn('deals', deals)
+                io.emit('newHotDeals', deals)
+            })
+        })
     })
 
     const getNotifications = (req, res, next) => {
@@ -40,7 +45,6 @@ module.exports = io => {
 
     router.get('/', getNotifications)
 
-    console.log('done')
 
     return router
 }

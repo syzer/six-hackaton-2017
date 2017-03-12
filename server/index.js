@@ -40,10 +40,11 @@ server.use('/', router)
 io.on('connection', (client) => {
     console.log('client connected', client.id)
     io.emit('review', { much: 'wow!' })
+    client.on('getNotifications', console.warn)
 })
 
 app.listen(3001, ip, () => {
-    console.log(`Socket on http://${ip}:${port}/`)
+    console.log(`Socket on http://${ip}:3001/`)
 })
 
 server.listen(port, ip, () => {
