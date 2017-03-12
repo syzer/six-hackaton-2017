@@ -201,6 +201,34 @@
       "productId": 1,
       "sentiment": "bad",
       "id": 6
+    },
+    {
+      "lang": "en",
+      "text": "those knives are sharp one of best I have ever use keep up the good work",
+      "productId": "1",
+      "sentiment": "good",
+      "id": 7
+    },
+    {
+      "lang": "en",
+      "text": "those knives are sharp one of best I have ever use keep up the good work",
+      "productId": "1",
+      "sentiment": "good",
+      "id": 8
+    },
+    {
+      "lang": "en",
+      "text": "those knives are sharp one of best I have ever use keep up the good work",
+      "productId": "1",
+      "sentiment": "good",
+      "id": 9
+    },
+    {
+      "lang": "en",
+      "text": "those knives are sharp one of best I have ever use keep up the good work",
+      "productId": "1",
+      "sentiment": "good",
+      "id": 10
     }
   ],
   "voice-recognitions": [
@@ -215,16 +243,16 @@
       "author": "Amazing Jeff",
       "userId": 1,
       "review": "This product is awesome!",
-      "sentiment": "positive",
+      "sentiment": "good",
       "productId": 1,
       "stars": 4
     },
     {
       "id": 2,
-      "author": "Amazing Jew",
-      "userId": 1,
+      "author": "Amazing Juice",
+      "userId": 2,
       "review": "This product is more awesome!",
-      "sentiment": "positive",
+      "sentiment": "good",
       "productId": 1,
       "stars": 4
     }

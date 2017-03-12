@@ -29,13 +29,9 @@ const postReview = (req, res, next) => {
             text
         }
     }).then(({ data:{ lang, sentiment } }) =>
-        axios.post(baseUrl + '/sentiments', {
-            lang,
-            text,
-            productId,
-            sentiment
-        }))
-        .then(({ data }) => res.json(data))
+        axios.post(baseUrl + '/sentiments', { lang, text, productId, sentiment }))
+        .then(({ data: { lang, text, productId, sentiment, id } }) =>
+            res.json({ lang, text, productId, sentiment, id }))
         .catch(onError(next))
 }
 

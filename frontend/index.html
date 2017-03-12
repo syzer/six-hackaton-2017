@@ -345,6 +345,15 @@
     </div>
     <!-- /#wrapper -->
 
+    <script src="js/socket.io.js"></script>
+
+    <script>
+        var socket = io('http://localhost:3001')
+        socket.on('connect', console.warn)
+        socket.on('review', console.warn)
+        socket.on('disconnect', console.warn)
+    </script>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -353,8 +362,8 @@
 
     <!-- Morris Charts JavaScript -->
     <script src="js/plugins/morris/raphael.min.js"></script>
-    <script src="js/plugins/morris/morris.min.js"></script>
-    <script src="js/plugins/morris/morris-data.js"></script>
+    <!--<script src="js/plugins/morris/morris.min.js"></script>-->
+    <!--<script src="js/plugins/morris/morris-data.js"></script>-->
 
 </body>
 
