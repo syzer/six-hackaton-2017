@@ -58,10 +58,10 @@ curl 'localhost:3000/purchases?_expand=product&_expand=user'
 ``` 
 
 ## Voice recognition
-<<<<<<< HEAD
 Do the 
 =======
 Tested on Python 2.7
+And Python 3
 
 Create virtual environment
 ```bash
@@ -81,25 +81,17 @@ pip install -r requirements.txt
 Don't do the heroku steps if you don't want to.
 
 Create instance on heroku (for heroku)
->>>>>>> 6c11f16782608bdecf9a4d642fbcde16e89479bf
-```bash
-heroku create
-```
-Add your key to the path
-```bash
-heroku config:set --app damp-chamber-61545 BING_VOICE_API_KEY="super secret key here"
-```
 
 To set up Bing voice API key use
 ```bash
 heroku config:set --app secure-basin-20797 BING_VOICE_API_KEY="111keepdreamingecab33b12"
 ```
 
-<<<<<<< HEAD
 Deploy to heroku
 ```bash
 git subtree push --prefix ml heroku master
 ```
+
 Make sure only one instance is running
 =======
 Deploy to heroku (for heroku)
@@ -121,6 +113,7 @@ curl localhost:5000/transcript-voice -F "file=@english.wav"
 ## `/voice-recognition`
 
 Provide us with speech to text.
+Send speech file, and get sentiment and review stored in db.
 
 ```bash
 curl localhost:5000/transcript-voice -F "file=@server/assets/product1-review.wav"
@@ -143,7 +136,7 @@ will post new review
 {
   "lang": "en",
   "text": "those knives are sharp one of best I have ever use keep up the good work",
-  "productId": "1",
+  "productId": 1,
   "sentiment": "good",
   "id": 7,
   "stars": 5
