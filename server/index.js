@@ -11,6 +11,7 @@ const fileUpload = require('express-fileupload')
 
 const server = jsonServer.create()
 const app = require('http').createServer(server)
+const io = socket(app)
 
 const router = jsonServer.router('./db/db.json')
 const middlewares = jsonServer.defaults()
@@ -32,10 +33,10 @@ server.use('/voice-recognitions', require('./api/voiceRecognitions'))
 server.use('/user-reviews', require('./api/userReviews'))
 server.use('/user-sentiments', require('./api/userSentiments'))
 server.use('/user-tweets', require('./api/userTweets'))
+server.use('/user-notifications', require('./api/userNotifications')(io))
 
 server.use('/', router)
 
-const io = socket(app)
 io.on('connection', (client) => {
     console.log('client connected', client.id)
     io.emit('review', { much: 'wow!' })
